@@ -1,0 +1,213 @@
+{
+  // Place your g24_e002_eja_proj_graf_mat workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Modelo de Snippet": {
+    "prefix": "modeloSnippet",
+    "body": [
+      "\"$1 \": {",
+      "\"prefix\": \"$2\",",
+      "\"body\": [",
+      "$3",
+      "],",
+      "\"description\": \"mode de $4\"",
+      "},"
+    ],
+    "description": "Log output to console"
+  },
+
+  "Modelo de abertura ": {
+    "prefix": "modeloAberturaEJA",
+    "body": [
+      "<div class=\"boxabertura\">",
+      "<div class=\"boxaberturatit\">",
+      "<p class=\"tit1\">",
+      "<span class=\"p0tit1pv\">Capítulo</span>",
+      "<span class=\"p0tit1numpv\">$1</span>",
+      "</p>",
+      "<h1 class=\"p0tit1\">$2</h1>",
+      "</div>",
+      "",
+      "<figure class=\"imgAbertura\">",
+      "<img src=\"../resources/images/$3\" alt=\"texto alternativo\" width=\"740\" height=\"844\" />",
+      "<figcaption class=\"p4legenda\">$4</figcaption>",
+      "</figure>",
+      "",
+      "<div class=\"o0aberturaatvbox\">",
+      "<p class=\"o0aberturaatvboxTit\">Titulo atividade</p>",
+      "<p class=\"p2textomarcadorsemrecuo\"><span class=\"p5marcador2\">1.</span> $5</p>",
+      "<p class=\"p2textomarcadorsemrecuo\"><span class=\"p5marcador2\">2.</span> $6</p>",
+      "</div>",
+      "",
+      "<div class=\"o0aberturaobjbox\">",
+      "<p class=\"p5aberturaobjtit\">Neste capítulo você vai:</p>",
+      "<ul class=\"p5aberturaobjitem\">",
+      "$7",
+      "</ul>",
+      "</div>",
+      "</div>"
+    ],
+    "description": "mode de abertura do capítulo do livro (EJA)"
+  },
+
+  //TÍTULOS
+
+  "Título de nível dois ": {
+    "prefix": "tituloNivel2",
+    "body": ["<h2 class=\"p0tit2\">$1</h2>"],
+    "description": "mode de título de nível dois"
+  },
+
+  "Título de nível três ": {
+    "prefix": "tituloNivel3",
+    "body": ["<h3 class=\"p0tit3\">$1</h3>"],
+    "description": "mode de título de nível três"
+  },
+
+  "Título de nível quatro ": {
+    "prefix": "tituloNivel4",
+    "body": ["<h4 class=\"p0tit4\">$1</h4>"],
+    "description": "mode de título de nível quatro"
+  },
+
+  "Título de nível cinco ": {
+    "prefix": "tituloNivel5",
+    "body": ["<h5 class=\"p0tit5\">$1</h5>"],
+    "description": "mode de título de nível cinco"
+  },
+
+  "Título de nível seis ": {
+    "prefix": "tituloNivel6",
+    "body": ["<h6 class=\"p0tit6\">$1</h6>"],
+    "description": "mode de título de nível seis"
+  },
+
+  //ATIVIDADES
+
+  "Atividades ": {
+    "prefix": "atividades",
+    "body": [
+      "<p class=\"sectitAtv\">",
+      "<span class=\"atv\">Atividades </span>",
+      "<span class=\"anote\">Anote as respostas no caderno.</span>",
+      "</p>"
+    ],
+    "description": "mode de Atividades"
+  },
+
+  //JORNAL
+
+  "Jornal ": {
+    "prefix": "jornal",
+    "body": [
+      "<div class=\"o3jornalfundo\">",
+      "<blockquote class=\"p3citacaomanchete\">$1</blockquote>",
+      "<blockquote class=\"p3citacaoolho\">$2</blockquote>",
+      "</div>"
+    ],
+    "description": "mode de jornal"
+  },
+
+  //CITAÇÃO
+
+  "Citação Manchete ": {
+    "prefix": "citacaoManchete",
+    "body": ["<blockquote class=\"p3citacaomanchete\">$1</blockquote>"],
+    "description": "mode de Citação Manchete"
+  },
+
+  "Citação Título 1 ": {
+    "prefix": "citacaoTit1",
+    "body": ["<blockquote class=\"p3citacaotit1\">$1</blockquote>"],
+    "description": "mode de Citação Título 1"
+  },
+
+  "Citação Título 2": {
+    "prefix": "citacaoTit2",
+    "body": ["<blockquote class=\"p3citacaotit2\">$1</blockquote>"],
+    "description": "mode de Citação Título 2"
+  },
+
+  "Citação Olho ": {
+    "prefix": "citacaoOlho",
+    "body": ["<blockquote class=\"p3citacaoolho\">$1</blockquote>"],
+    "description": "mode de Citação Olho"
+  },
+
+  "Citação Com Recuo ": {
+    "prefix": "citacaoComRecuo",
+    "body": ["<blockquote class=\"p3citacao\">$1</blockquote>"],
+    "description": "mode de Citação Com Recuo"
+  },
+
+  "Citação Sem Recuo ": {
+    "prefix": "citacaoSemRecuo",
+    "body": ["<blockquote class=\"p3citacaosemrecuo\">$1</blockquote>"],
+    "description": "mode de Citação Sem Recuo"
+  },
+
+  //TEXTO CITADO
+
+  "Fio Citação": {
+    "prefix": "fioCitacao",
+    "body": [
+      "<div class=\"o3fiocitacao\">",
+      "<blockquote class=\"p3citacao\">$1</blockquote>",
+      "</div>"
+    ],
+    "description": "mode de Fio Citação"
+  },
+
+  //VOCABULÁRIO
+
+  "Vocabulário Destaque ": {
+    "prefix": "vocabularioDestaque",
+    "body": [
+		"<dfn>",
+        "<span class=\"c4vocabulariodestaque\">$1</span>",
+        "<a href=\"$2\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
+        "</dfn>",
+	],
+    "description": "mode de Vocabulário Destaque"
+  },
+
+  "Vocabulário Destaque Link ": {
+    "prefix": "vocabularioDestaqueLink",
+    "body": [
+		"<a href=\"$1\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
+	],
+    "description": "mode de Vocabulário Destaque Link"
+  },
+
+  "Box fundo cor Roxo 1": {
+    "prefix": "boxFundoCorRoxo1",
+    "body": ["<div class=\"o1boxfundoroxo1\">", "$1", "</div>"],
+    "description": "mode de de box fundo cor roxo 1"
+  },
+
+  "Paragrafo fundo cor Roxo 1": {
+    "prefix": "paragrafoFundoCorRoxo1",
+    "body": ["<p class=\"o1boxfundoroxo1\">", "$1", "</p>"],
+    "description": "mode de de paragrafo fundo cor roxo 1"
+  },
+
+  "Lista fundo cor Roxo 1": {
+    "prefix": "listaFundoCorRoxo1",
+    "body": ["<ul class=\"o1boxfundoroxo1\">", "$1", "</ul>"],
+    "description": "mode de de lista fundo cor roxo 1"
+  }
+}
