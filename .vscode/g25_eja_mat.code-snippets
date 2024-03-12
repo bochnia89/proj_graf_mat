@@ -177,21 +177,131 @@
   "Vocabulário Destaque ": {
     "prefix": "vocabularioDestaque",
     "body": [
-		"<dfn>",
-        "<span class=\"c4vocabulariodestaque\">$1</span>",
-        "<a href=\"$2\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
-        "</dfn>",
-	],
+      "<dfn>",
+      "<span class=\"c4vocabulariodestaque\">$1</span>",
+      "<a href=\"$2\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
+      "</dfn>"
+    ],
     "description": "mode de Vocabulário Destaque"
   },
 
   "Vocabulário Destaque Link ": {
     "prefix": "vocabularioDestaqueLink",
     "body": [
-		"<a href=\"$1\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
-	],
+      "<a href=\"$1\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>"
+    ],
     "description": "mode de Vocabulário Destaque Link"
   },
+
+  "Vocabulário Box ": {
+    "prefix": "vocabularioBox",
+    "body": [
+      "<div class=\"o4vocabulariobox\">",
+      "<dl class=\"p4vocabulario\" aria-label=\"Glossário\">",
+      "<dt id=\"$1\"><dfn class=\"c4vocabulariodestaque\">$2:</dfn></dt>",
+      "<dd>$3<a href=\"$4\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a></dd>",
+      "</dl>",
+      "</div>"
+    ],
+    "description": "mode de Vocabulário Box"
+  },
+
+  "Vocabulário Box Itálico": {
+    "prefix": "vocabularioBoxItalico",
+    "body": [
+      "<div class=\"o4vocabulariobox\">",
+      "<dl class=\"p4vocabulario\" aria-label=\"Glossário\">",
+      "<dt id=\"$1\"><dfn class=\"c4vocabulariodestaqueitalico\">$2:</dfn></dt>",
+      "<dd>$3<a href=\"$4\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a></dd>",
+      "</dl>",
+      "</div>"
+    ],
+    "description": "mode de Vocabulário Box Itálico"
+  },
+
+  "Vocabulário Box Link ": {
+    "prefix": "vocabularioBoxLink",
+    "body": [
+      "<a href=\"$1\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a>"
+    ],
+    "description": "mode de Vocabulário Destaque Link"
+  },
+
+  // CUIDADO DICA
+
+  "Dica Box ": {
+    "prefix": "dicaBox",
+    "body": [
+      "<div class=\"o4dicabox\">",
+      "<p class=\"p4cuidadodica\">$1</p>",
+      "</div>"
+    ],
+    "description": "mode de Dica Box"
+  },
+
+  "Dica Box Negativo ": {
+    "prefix": "dicaBoxNegativo",
+    "body": [
+      "<div class=\"o4dicaboxnegativo\">",
+      "<p class=\"p4cuidadodica\">$1</p>",
+      "</div>"
+    ],
+    "description": "mode de Dica Box Negativo"
+  },
+
+  // CONCEITO
+
+  "Conceito Box ": {
+    "prefix": "conceitoBox",
+    "body": [
+      "<div class=\"o4conceitobox\">",
+      "<p class=\"p3intermediariompsemrecuo\">$1</p>",
+      "</div>"
+    ],
+    "description": "mode de Conceito Box"
+  },
+
+  "Conceito Box Completo": {
+    "prefix": "conceitoBoxCompleto",
+    "body": [
+      "<div class=\"o4conceitobox\">",
+      "<p class=\"p1box2tit\">$1</p>",
+      "<p class=\"p2textosemrecuo\"><strong class=\"c1bold\">$2</strong></p>",
+      "<p class=\"p2texto\">$3</p>",
+      "</div>"
+    ],
+    "description": "mode de Conceito Box Completo"
+  },
+
+  //BOX info
+
+  "Box Info ": {
+    "prefix": "boxInfo",
+    "body": [
+      "<div class=\"o4boxinfo\">",
+      "<p class=\"p1box2tit\">$1</p>",
+      "<div class=\"box\">$2</div>",
+      "</div>"
+    ],
+    "description": "mode de Box Info"
+  },
+
+  //BOX Autoavaliação
+
+  "Box Autoavaliação ": {
+    "prefix": "boxAutoAvaliacao",
+    "body": [
+      "<div class=\"o4avaliacaobox\">",
+      "<p class=\"p1box1tit\">Autoavaliação</p>",
+      "<div class=\"box\">",
+      "<p class=\"p2textosemrecuo\">$1</p>",
+      "</div>",
+      "</div>"
+    ],
+    "description": "mode de Box Autoavaliação"
+  },
+
+  //Fundo cor
 
   "Box fundo cor Roxo 1": {
     "prefix": "boxFundoCorRoxo1",
@@ -201,7 +311,7 @@
 
   "Paragrafo fundo cor Roxo 1": {
     "prefix": "paragrafoFundoCorRoxo1",
-    "body": ["<p class=\"o1boxfundoroxo1\">", "$1", "</p>"],
+    "body": ["<p class=\"o1boxfundoroxo1\">$1</p>"],
     "description": "mode de de paragrafo fundo cor roxo 1"
   },
 
@@ -209,5 +319,188 @@
     "prefix": "listaFundoCorRoxo1",
     "body": ["<ul class=\"o1boxfundoroxo1\">", "$1", "</ul>"],
     "description": "mode de de lista fundo cor roxo 1"
+  },
+
+  "Box fundo cor Roxo 2": {
+    "prefix": "boxFundoCorRoxo2",
+    "body": ["<div class=\"o1boxfundoroxo2\">", "$1", "</div>"],
+    "description": "mode de de box fundo cor roxo 2"
+  },
+
+  "Paragrafo fundo cor Roxo 2": {
+    "prefix": "paragrafoFundoCorRoxo2",
+    "body": ["<p class=\"o1boxfundoroxo2\">$1</p>"],
+    "description": "mode de de paragrafo fundo cor roxo 2"
+  },
+
+  "Lista fundo cor Roxo 2": {
+    "prefix": "listaFundoCorRoxo2",
+    "body": ["<ul class=\"o1boxfundoroxo2\">", "$1", "</ul>"],
+    "description": "mode de de lista fundo cor roxo 2"
+  },
+
+  "Box fundo cor Azul 1": {
+    "prefix": "boxFundoCorAzul1",
+    "body": ["<div class=\"o1boxfundoazul1\">", "$1", "</div>"],
+    "description": "mode de de box fundo cor azul 1"
+  },
+
+  "Paragrafo fundo cor Azul 1": {
+    "prefix": "paragrafoFundoCorAzul1",
+    "body": ["<p class=\"o1boxfundoazul1\">$1</p>"],
+    "description": "mode de de paragrafo fundo cor azul 1"
+  },
+
+  "Lista fundo cor Azul 1": {
+    "prefix": "listaFundoCorAzul1",
+    "body": ["<ul class=\"o1boxfundoazul1\">", "$1", "</ul>"],
+    "description": "mode de de lista fundo cor azul 1"
+  },
+
+  //BOX PALAVRA
+
+  "Box Palavra": {
+    "prefix": "boxPalavra",
+    "body": [
+      "<ul class=\"o0boxpalavra\">",
+      "<li>$1</li>",
+      "<li>$2</li>",
+      "<li>$3</li>",
+      "</ul>"
+    ],
+    "description": "mode de Box Palavra"
+  },
+
+  //FICHAS
+
+  "Lista Ficha ": {
+    "prefix": "listaFicha",
+    "body": [
+      "<ul class=\"o4ficha\">",
+      "<li>$1</li>",
+      "<li>$2</li>",
+      "<li>$3</li>",
+      "</ul>"
+    ],
+    "description": "mode de Lista Ficha"
+  },
+
+  "Lista Ficha 2": {
+    "prefix": "listaFicha2",
+    "body": [
+      "<ul class=\"o4ficha2\">",
+      "<li>$1</li>",
+      "<li>$2</li>",
+      "<li>$3</li>",
+      "</ul>"
+    ],
+    "description": "mode de Lista Ficha 2"
+  },
+
+  "Parágrafo Ficha ": {
+    "prefix": "paragrafoFicha",
+    "body": ["<p class=\"o4ficha\">$1</p>"],
+    "description": "mode de Parágrafo Ficha"
+  },
+
+  "Parágrafo Ficha 2": {
+    "prefix": "paragrafoFicha2",
+    "body": ["<p class=\"o4ficha2\">$1</p>"],
+    "description": "mode de Parágrafo Ficha 2"
+  },
+
+  "Span Ficha ": {
+    "prefix": "spanFicha",
+    "body": ["<span class=\"o4ficha\">$1</span>"],
+    "description": "mode de Span Ficha"
+  },
+
+  "Span Ficha 2 ": {
+    "prefix": "spanFicha2",
+    "body": ["<span class=\"o4ficha2\">$1</span>"],
+    "description": "mode de Span Ficha 2"
+  },
+
+  //EXEMPLO
+
+  "Marcador Caixa Opção": {
+    "prefix": "marcadorCaixaOpcao",
+    "body": ["<p class=\"p5marcadorcaixa\">Opção $1</p>"],
+    "description": "mode de Marcador Caixa Opção"
+  },
+
+  "Marcador Caixa Exemplo": {
+    "prefix": "marcadorCaixaExemplo",
+    "body": ["<p class=\"p5marcadorcaixa\">Exemplo $1</p>"],
+    "description": "mode de Marcador Caixa Exemplo"
+  },
+
+  "Marcador Caixa Trecho": {
+    "prefix": "marcadorCaixaTrecho",
+    "body": ["<p class=\"p5marcadorcaixa\">Trecho $1</p>"],
+    "description": "mode de Marcador Caixa Trecho"
+  },
+
+  //BALÃO
+
+  "Balão Direita ": {
+    "prefix": "balaoDireita",
+    "body": [
+      "<div class=\"o4balao direita\">",
+      "<p class=\"p5balao\">$1</p>",
+      "</div>"
+    ],
+    "description": "mode de Balão Direita"
+  },
+
+  "Balão Esquerda ": {
+    "prefix": "balaoEsquerda",
+    "body": [
+      "<div class=\"o4balao esquerda\">",
+      "<p class=\"p5balao\">$1</p>",
+      "</div>"
+    ],
+    "description": "mode de Balão Esquerda"
+  },
+
+  //SEÇÃO 1
+
+  "Investigue conhecimentos ": {
+    "prefix": "sec1Investigue",
+    "body": [
+      "<div class=\"o0sec1\">",
+      "<h2 class=\"p1sec1tit1\">Investigue seus conhecimentos</h2>",
+      "<div class=\"box\">",
+      "$1",
+      "</div>",
+      "</div>"
+    ],
+    "description": "mode de Investigue seus conhecimentos"
+  },
+
+  "Retome conhecimentos ": {
+    "prefix": "sec1Retome",
+    "body": [
+      "<div class=\"o0sec1\">",
+      "<h2 class=\"p1sec1tit1\">Retome seus conhecimentos</h2>",
+      "<div class=\"box\">",
+      "$1",
+      "</div>",
+      "</div>"
+    ],
+    "description": "mode de Retome seus conhecimentos"
+  },
+
+  "Teste conhecimentos ": {
+    "prefix": "sec1Teste",
+    "body": [
+      "<div class=\"o0sec1\">",
+      "<h2 class=\"p1sec1tit1\">Teste seus conhecimentos</h2>",
+      "<div class=\"box\">",
+      "$1",
+      "</div>",
+      "</div>"
+    ],
+    "description": "mode de Teste seus conhecimentos"
   }
 }
