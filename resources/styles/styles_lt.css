@@ -765,6 +765,10 @@ header .pag {
 
 
 /* Gráficos */
+/* 
+o2graficogravata1
+o2graficogravata2
+*/
 .o2graficobox {
     display: table;
     margin: 1em 0;
@@ -775,8 +779,9 @@ header .pag {
     margin: 0;
 }
 
+
 .o2graficobox .p1graficotit {
-    background: var(--verde3);
+    
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
     font-weight: bold;
@@ -784,6 +789,22 @@ header .pag {
     max-width: 100%;
     display: table-caption;
     caption-side: top;
+}
+
+.o2graficobox  .p1graficotit {   
+    border-radius: 0.5em 0.5em 0 0;
+    font-family: var(--titulo);
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    max-width: 100%;
+    display: table-caption;
+    caption-side: top;
+}
+.o2graficogravata1 {
+    background: var(--verde3);
+}
+.o2graficogravata2{
+    background: var(--branco);
 }
 
 /* maps */
@@ -796,7 +817,7 @@ header .pag {
 }
 
 .o2mapabox .p1mapatit {
-    background: var(--verde3);
+   
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
     font-weight: bold;
@@ -804,6 +825,13 @@ header .pag {
     max-width: 100%;
     display: table-caption;
     caption-side: top;
+}
+
+.o2mapagravata1{
+    background: var(--verde3);
+}
+.o2mapagravata2{
+    background: var(--branco);
 }
 
 /* Título Box */
@@ -1691,7 +1719,9 @@ p.p3intermediariosemrecuoitem::before {
 .p3citacaoletracont,
 .p3citacaonumero,
 .p3citacaonumerocont,
-.p3citacaosemrecuo {
+.p3citacaosemrecuo,
+.p3citacaonumero,
+.p3citacaonumerocont {
     font-family: var(--citacao);
     font-size: var(--pesoPadrao);
 }
@@ -1779,9 +1809,17 @@ blockquote.p3citacaoitem::before {
     margin: 0.5em 0 0.5em 1.4em;
 }
 
-.p3citacaonumero {}
+.p3citacaonumero {
+    text-align: justify;
+    margin: 0.5em  0  0.5em 30px;
 
-.p3citacaonumerocont {}
+}
+
+.p3citacaonumerocont {
+    text-align: justify;
+    margin: 0.5em  0  0.5em 30px;
+}
+
 
 
 
@@ -2166,6 +2204,14 @@ dd sup {
 .c0destaquesomatoria {}
 
 .c0bulletnumitem {}
+
+.c0destaquenumerocitacao {
+    font-weight: bold;
+    position: absolute;
+    width: 20px;
+    height:20px;
+    margin: 0 0 0 -30px;
+}
 
 /* Estilo de caracter utilizado no manual em U */
 .c0bulletsubitem {}
