@@ -3374,7 +3374,7 @@ o5nota2
 o5navegador
 o5quadrobranco
 o5lousa
-o5moudura
+o5moldura
 o5prancheta
 o5verbetedicionario
 👈*/
@@ -3680,7 +3680,7 @@ o5verbetedicionario
 }
 
 /* Moudura */
-.o5moudura {
+.o5moldura {
     background: url(../images/pv_moudura.svg) top left no-repeat,
         url(../images/pv_moudura.svg) bottom left no-repeat;
     background-size: contain;
