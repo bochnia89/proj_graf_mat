@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.73" height="15.88" viewBox="0 0 18.73 15.88">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1801" data-name="Caminho 1801" d="M164.423-61.941h18.73v-15.88h-18.73Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_subtracao" transform="translate(-218.423 -170.238)">
+    <g id="Grupo_1851" data-name="Grupo 1851" transform="translate(54 248.059)" clip-path="url(#clip-path)">
+      <g id="Grupo_1848" data-name="Grupo 1848" transform="translate(180.653 -66.441)">
+        <path id="Caminho_1798" data-name="Caminho 1798" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.88a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="#fff"/>
+      </g>
+      <g id="Grupo_1849" data-name="Grupo 1849" transform="translate(180.653 -66.441)">
+        <path id="Caminho_1799" data-name="Caminho 1799" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.88a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="none" stroke="#2b2e34" stroke-width="0.75"/>
+      </g>
+      <g id="Grupo_1850" data-name="Grupo 1850" transform="translate(170.965 -69.882)">
+        <path id="Caminho_1800" data-name="Caminho 1800" d="M0,0H5.645" fill="none" stroke="#2b2e34" stroke-miterlimit="10" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

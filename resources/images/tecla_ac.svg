@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.73" height="15.88" viewBox="0 0 18.73 15.88">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1743" data-name="Caminho 1743" d="M0-31.182H18.73v-15.88H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_ac" transform="translate(-54 -200.997)">
+    <g id="Grupo_1795" data-name="Grupo 1795" transform="translate(54 248.059)" clip-path="url(#clip-path)">
+      <g id="Grupo_1793" data-name="Grupo 1793" transform="translate(16.23 -35.682)">
+        <path id="Caminho_1741" data-name="Caminho 1741" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.881a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="#fff"/>
+      </g>
+      <g id="Grupo_1794" data-name="Grupo 1794" transform="translate(16.23 -35.682)">
+        <path id="Caminho_1742" data-name="Caminho 1742" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.881a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="none" stroke="#2b2e34" stroke-width="0.75"/>
+      </g>
+    </g>
+    <text id="AC" transform="translate(59.732 211.401)" fill="#2b2e34" font-size="7" font-family="HelveticaNeueLTStd-MdCn, Helvetica Neue LT Std" font-weight="500"><tspan x="0" y="0">AC</tspan></text>
+  </g>
+</svg>

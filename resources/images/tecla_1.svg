@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.731" height="15.88" viewBox="0 0 18.731 15.88">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1716" data-name="Caminho 1716" d="M36.864-31.182H55.6v-15.88H36.864Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_1" transform="translate(-90.864 -200.997)">
+    <g id="Grupo_1768" data-name="Grupo 1768" transform="translate(54 248.059)" clip-path="url(#clip-path)">
+      <g id="Grupo_1766" data-name="Grupo 1766" transform="translate(53.094 -35.682)">
+        <path id="Caminho_1714" data-name="Caminho 1714" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.881a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="#fff"/>
+      </g>
+      <g id="Grupo_1767" data-name="Grupo 1767" transform="translate(53.094 -35.682)">
+        <path id="Caminho_1715" data-name="Caminho 1715" d="M0,0A2,2,0,0,1-2,2h-9.73a2,2,0,0,1-2-2V-6.881a2,2,0,0,1,2-2H-2a2,2,0,0,1,2,2Z" fill="none" stroke="#2b2e34" stroke-width="0.75"/>
+      </g>
+    </g>
+    <text id="_1" data-name="1" transform="translate(98.31 211.685)" fill="#2b2e34" font-size="8" font-family="HelveticaNeueLTStd-MdCn, Helvetica Neue LT Std" font-weight="500"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

@@ -1637,7 +1637,7 @@ p.p2atvletrasubitem::before {
 .p3intermediariosemrecuoletra,
 .p3intermediariosemrecuoletracont {
     font-family: var(--texto);
-    font-size: var(--pesoPadrao);
+    font-size: var(--pesoIntermediario);
     text-align: left;
     max-width: 100%;
 }
@@ -1886,9 +1886,11 @@ blockquote.p3citacaoitem::before {
 /* Crédito Imagem*/
 
 .p4credimagem {
+    background: #3EE0CE;
     font-family: var(--texto);
     font-size: var(--pesoMenor);
     text-align: right;
+   
 }
 
 /* Cuidado dica */
@@ -3270,6 +3272,12 @@ span.o4ficha2 {
     padding:1em 2em;
 }
 
+.o4sintesefio{
+    border-left: 3px solid var(--roxo2);
+    border-radius: 1em ;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+}
 
 
 /* SEÇÃO 6 */
