@@ -28,13 +28,29 @@
 .p0tit1gabnegativo{}
 
 .p0tit2gab{
+    background: var(--vermelho1);
+    color:var(--branco) ;
     font-family: var(--titulo);
     font-weight: bold;
-    font-size: var(--peso6);
+    font-size: var(--peso5);
+    width: max-content;
+    max-width: 100%;
+    padding: 0.1em 0.8em 0.2em 0.8em;
+    margin: 1em 0 0.5em 0;
 }
 .p0tit2gabnegativo{}
 
-.p0tit3gab{}
+.p0tit3gab{
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso6);
+    width: max-content;
+    max-width: 100%;
+    padding: 0.1em 0.8em 0.2em 0.8em;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit3gabnegativo{}
 
 /*👉------- TABELA -------👈*/
