@@ -215,6 +215,16 @@ table p {
     color: transparent;
 }
 
+.ocultamn{
+    font-size: 0.3em;
+}
+
+.ocultatx {
+    font-size: 0.9em;
+}
+.hifen_ano {
+    margin-left: -8px;
+}
 
 .p4iconeoed::before {
     content: '';
