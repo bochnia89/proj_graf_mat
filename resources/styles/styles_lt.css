@@ -209,7 +209,13 @@ table p {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
-.orientaTx {}
+.orientatx { 
+    color: transparent;
+}
+.orientamn {
+    color: transparent;
+}
+
 
 .p4iconeoed::before {
     content: '';
