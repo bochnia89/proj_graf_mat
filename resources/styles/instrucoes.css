@@ -7,7 +7,9 @@
     src: url(https://fonts.gstatic.com/s/materialicons/v37/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
   }
   
-
+  s{
+    color: #7b7b7b;
+  }
   #back-to-top{
     position: fixed;
     z-index: 20;
