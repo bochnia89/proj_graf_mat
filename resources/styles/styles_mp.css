@@ -227,7 +227,7 @@ z-index: -2;
     padding: 0.2em 1em 0.5em 1em;
     margin: 1em 0 0.5em 0;
 }
-.p0tit1mp::after{
+.p0tit1mp::before{
     background: url(../images/pv_p0tit1mp.svg) no-repeat;
     background-size: 100%;
     content: '';
@@ -237,6 +237,23 @@ z-index: -2;
     margin: -30px 0 0 -30px;
     z-index: -2;
 }
+
+.p0tit1mp2{    
+    background:var(--preto);    
+    border: 50px solid  #fff;
+    border-image:  url(../images/pv_p0tit1mp.svg)10 10 10 10 ;
+
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: var(--peso1);
+    line-height: 1.1em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.2em 1em 0.5em 1em;
+    margin: 1em 0 0.5em 0;
+}
+
+
 .p0tit1mpnegativo{}
 
 .p0tit2mp{
@@ -769,6 +786,15 @@ p.p2textompsubitem::before, ul.p2textompsubitem li::before{
 .p2atvmpnumromano{}
 
 .p2atvmpsomatoria{}
+
+.p2referenciasbibliomp{
+    margin: 1em 0 0.1em 0;
+  word-break: break-all;
+}
+.p2referenciasbibliompcoment{
+    margin: 0 0 0.5em 0;
+}
+
 
 /*👉=========== TEXTOS PESO: INTERMEDIÁRIO ======👈*/
 /* Textos Intermediários */
