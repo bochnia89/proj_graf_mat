@@ -1150,6 +1150,11 @@ o2graficogravata2
 .p2textosemrecuoitem,
 .p2textosemrecuoitemcont,
 .p2textosemrecuonum,
+.p2textosemrecuonumcont,
+.p2textosemrecuonumitem,
+.p2textosemrecuonumitemcont,
+.p2textosemrecuonumletra,
+.p2textosemrecuonumletracont,
 .p2texto,
 .p2textoitem,
 .p2textoitemcont,
@@ -1163,6 +1168,8 @@ o2graficogravata2
 .p2textoletraitemcont,
 .p2textomarcador,
 .p2textomarcadorcont,
+.p2textomarcadorletra,
+.p2textomarcadorletracont,
 .p2textomarcadoritem,
 .p2textomarcadoritemcont,
 .p2textomarcadorsubitem,
@@ -1208,6 +1215,20 @@ o2graficogravata2
     text-align: justify;
 }
 
+/* 
+.p2textomarcadorletra,
+.p2textomarcadorletracont,
+.p2textosemrecuonumcont,
+.p2textosemrecuonumitem,
+.p2textosemrecuonumitemcont,
+.p2textosemrecuonumletra,
+.p2textosemrecuonumletracont
+*/
+
+.p2textomarcadorletra,
+.p2textomarcadorletracont{
+    margin: 0.5em 0 0.5em 4.5em;
+}
 
 
 .p2textosemrecuo {
@@ -1238,6 +1259,34 @@ p.p2textosemrecuoitem::before {
     margin: 0.5em 0 0.5em 28px;
 }
 
+.p2textosemrecuonumcont{
+    margin: 0.5em 0 0.5em 28px;
+}
+ul.p2textosemrecuonumitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2textosemrecuonumitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2textosemrecuonumitem::before{
+content: '•';
+font-size: 1.2em;
+width:10px ;
+height:10px ;
+position: absolute;
+margin:0 0 0 -14px ;
+}
+.p2textosemrecuonumitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2textosemrecuonumletra{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+.p2textosemrecuonumletracont{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+
 .p2textomarcadorsemrecuo {
     margin: 0.5em 0 0.5em 28px;
 }
@@ -1246,6 +1295,8 @@ p.p2textosemrecuoitem::before {
     /*TODO: Aguardando de definição de uso*/
     margin: 0.5em 0 0.5em 28px;
 }
+
+
 
 
 .p2texto {
