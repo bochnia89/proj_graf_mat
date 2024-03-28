@@ -97,7 +97,7 @@ p.p2questaogabitem{
     margin: 0 0 0 1em;
 }
 p.p2questaogabitem::before{
-    content: '•';
+    content: ''; /*content: '•';*/
     font-size: 1.2em;
     width: 10px;
     height: 10px;
@@ -120,7 +120,7 @@ ul.p2questaogabletraitem, p.p2questaogabletraitem{
     margin: 0 0 0 2em;
 }
 p.p2questaogabletraitem::before{
-    content: '•';
+    content: ''; /*content: '•';*/
     font-size: 1.2em;
     width: 10px;
     height: 10px;
@@ -193,7 +193,7 @@ p.p2atvgabitem{
     margin: 0.5em 0 0.5em 1em;
 }
 p.p2atvgabitem::before{
-    content: '•';
+    content: ''; /*content: '•';*/
     font-size: 1.2em;
     width: 10px;
     height: 10px;
@@ -209,7 +209,7 @@ ul.p2atvgabsubitem{
     margin: 0.5em 0 0.5em 2em;
 }
 p.p2atvgabsubitem::before{
-    content: '•';
+    content: ''; /*content: '•';*/
     font-size: 1.2em;
     width: 10px;
     height: 10px;
@@ -261,7 +261,7 @@ p.p2atvgabletraitembullet{
     margin:  0.5em 0 0.5em 3.5em; 
 }
 p.p2atvgabletraitembullet::before{
-    content: '•';
+    content: ''; /*content: '•';*/
     width: 10px;
     height: 40px;
     margin: 0 0 0 -14px;
@@ -394,7 +394,7 @@ p.p3intermediariogabsemrecuoitem{
     margin: 0.5em 0 0.5em 0.5em;
 }
 p.p3intermediariogabsemrecuoitem::before{
-    content: '•';
+    content: '';  /*content: '•';*/
     font-size: 1.3em;
     width: 10px;
     height: 10px;
