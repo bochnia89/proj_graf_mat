@@ -469,7 +469,7 @@ margin: 2px 0 0 -1em ;
     font-weight: bold;
     margin: 0.5em 0 0.5em 1.5em;
 }
-.pvcapsum{
+.c0destquecapsummp{
     background: var(--vermelho1);
     color: var(--branco);
     padding: 0.1em 0.4em;
@@ -828,7 +828,7 @@ p.p2textompsubitem::before, ul.p2textompsubitem li::before{
 
 .p3intermediariompmarcador{}
 .p3intermediariompmarcadorcont{}
- p3intermediariosemrecuomp
+ .p3intermediariosemrecuomp{}
 .p3intermediariompsemrecuo {
     font-size: var(--pesoIntermediario);
     font-family: var(--texto);
@@ -945,11 +945,12 @@ ul.p3citacaompitem li::before, p.p3citacaompitem::before{
 }
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
-/*👉.c0destaqueletramp{}
-
+/*👉
+.c0destaqueletramp{}
 .c0destaquenumeromp{}
 .c0destaqueromanomp{}
-.c0bulletnumitem{}👈*/
+.c0bulletnumitem{}
+👈*/
 
 
 .c0destaqueletramp {
