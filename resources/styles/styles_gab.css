@@ -91,10 +91,10 @@
 .p2questaogabcont{}
 ul.p2questaogabitem{
     list-style: disc;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
 }
 p.p2questaogabitem{
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
 }
 p.p2questaogabitem::before{
     content: ''; /*content: '•';*/
@@ -106,18 +106,18 @@ p.p2questaogabitem::before{
     
 }
 .p2questaogabitemcont{
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
 
 }
 .p2questaogabletra{
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
 }
 .p2questaogabletracont{
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
 }
 ul.p2questaogabletraitem, p.p2questaogabletraitem{
     list-style: disc;
-    margin: 0 0 0 2em;
+    margin: 0 0 0 3em;
 }
 p.p2questaogabletraitem::before{
     content: ''; /*content: '•';*/
@@ -129,7 +129,7 @@ p.p2questaogabletraitem::before{
     
 }
 .p2questaogabletraitemcont{
-    margin: 0 0 0 2em;
+    margin: 0 0 0 3em;
 }
 
 /*👉------- ATIVIDADE DO GABARITO  -------👈*/
@@ -153,44 +153,42 @@ p.p2questaogabletraitem::before{
     margin: 0.5em 0;
     
 }
-.p2atvgab{
-    margin:  0.5em 0 0.5em 1.5em;
-}
+
 
 .p2atvgabnumromano {
-    margin:  0.5em 0 0.5em 3.5em;
+    margin:  0.5em 0 0.5em 4.7em;
 }
 .p2atvgabnumromano>span.c0destaquenumero{
-  margin: 0 0 0 -56px; 
+  margin: 0 0 0 -69px; 
 }
 .p2atvgabnumromano>span.c0destaqueromano{
-    margin: 0 0 0 -40px;
+    margin: 0 0 0 -45px;
 }
 .p2atvgabromano{
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 4.7em;
 }
 
 .p2atvgabromanocont{
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 4.7em;
 }
 
 
 
 .p2atvgab{
-    margin: 1em 0 0em 1.5em;
+    margin: 1em 0 0em 2em;
     max-width: 100%;
 }
 .p2atvgabcont{
-    margin: 0em 0 0em 1.5em;
+    margin: 0em 0 0em 2em;
     max-width: 100%;
 }
 
 ul.p2atvgabitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 p.p2atvgabitem{
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 p.p2atvgabitem::before{
     content: ''; /*content: '•';*/
@@ -202,11 +200,11 @@ p.p2atvgabitem::before{
 
 }
 .p2atvgabitemcont{
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 ul.p2atvgabsubitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 4em;
 }
 p.p2atvgabsubitem::before{
     content: ''; /*content: '•';*/
@@ -217,7 +215,7 @@ p.p2atvgabsubitem::before{
     margin:  0  0 0 -14px;
 }
 p.p2atvgabsubitem{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 4em;
 }
 .p2atvgabitemletra{}
 .p2atvgabitemletracont{}
@@ -225,11 +223,11 @@ p.p2atvgabsubitem{
 
 
 .p2atvgabitemletra{
-    margin: 0.5em 0 0.5em 2.5em ;
+    margin: 0.5em 0 0.5em 5em ;
 }
 
 .p2atvgabitemletracont{
-    margin: 0.5em 0 0.5em 2.5em ;
+    margin: 0.5em 0 0.5em 5em ;
 }
 
 /* Atividade Gab Letra */
@@ -292,54 +290,57 @@ p.p2atvgabletraitembullet::before{
     margin: 0.5em 0 0.5em 2.5em;
 }
 .p2atvgabnumitem>.c0destaquenumero{
-    margin:0 0 0 -35px; ;
+    margin:0 0 0 -38px; 
 }
 .p2atvgabnumitem>.c0bulletnumitem{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 24px;
     position: absolute;
-    margin: 0 0 0 -12px;
+    text-align: center;
+    margin: 0 0 0 -16px;
 }
 .p2atvgabnumletra{ 
-    margin: 1em 0 0em 3em;
+    margin: 1em 0 0em 3.6em;
     max-width: 100%;
 }
 .p2atvgabnumletra>.c0destaquenumero{
-    margin: 0 0 0 -46px;
+    margin: 0 0 0 -55px;
 }
 .p2atvgabnumletra>.c0destaqueletra{
-    margin: 0 0 0 -25px;
+    margin: 0 0 0 -30px;
 }
 .p2atvgabnumletra {}
 
 .p2atvgabnumletraitem{
-    margin: 1em 0 0em 3.5em;
+    margin: 1em 0 0em 4.5em;
 }
 .p2atvgabnumletraitem>.c0destaquenumero{
-    margin: 0 0 0 -56px;
+    margin: 0 0 0 -69px;
 }
 .p2atvgabnumletraitem>.c0destaqueletra{
-    margin: 0 0 0 -36px;
+    margin: 0 0 0 -46px;
 }
 .p2atvgabnumletraitem>.c0bulletnumitem{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 24px;
     position: absolute;
-    margin: 0 0 0 -10px;
+    text-align: center;
+    margin: 0 0 0 -16px;
 }
 
 
 .p2atvgabletraitem{
-    margin: 1em 0 0em 3.5em
+    margin: 1em 0 0em 4.5em
 }
 .p2atvgabletraitem>.c0destaqueletra{
-    margin: 0 0 0 -36px;
+    margin: 0 0 0 -46px;
 }
 .p2atvgabletraitem>.c0bulletnumitem{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 24px;
     position: absolute;
-    margin: 0 0 0 -10px;
+    text-align: center;
+    margin: 0 0 0 -16px;
 }
 .p2atvgabnumromano{}
 .p2atvgabsomatoria{}
@@ -350,18 +351,18 @@ p.p2atvgabletraitembullet::before{
 
 /* SOMATORIA */
 .p2atvgabsomatoria{
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 3.8em;
     text-align: left;
 }
 .p2atvgabsomatoria>.c0destaquesomatoria{
-    width: 12px;
-    height: 12px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 -32px;
 }
 
 .p2atvgabsomatoriacont {
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
 
 /*👉------- TEXTO INTERMEDIÁRIO  -------👈*/
@@ -388,7 +389,7 @@ p.p2atvgabletraitembullet::before{
 .p3intermediariogabsemrecuo{}
 ul.p3intermediariogabsemrecuoitem{
     list-style: disc;
-    margin: 0.5em 0.5em 0;
+    margin: 0.5em 0.5em 0 1em;
 }
 p.p3intermediariogabsemrecuoitem{
     margin: 0.5em 0 0.5em 0.5em;

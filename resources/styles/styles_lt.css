@@ -132,20 +132,16 @@ table p {
     margin: 1em 0;
     box-sizing: border-box;
 }
-
 .tb_verde td {
     border: 1px solid var(--verde1);
 }
-
 .tb_verde th {
     border: 1px solid var(--verde1);
     background: var(--verde3);
     font-family: var(--titulo);
     font-size: 0.9em;
-
     text-align: center;
 }
-
 .tb_verde tr td:empty,
 .tb_verde tr th:empty {
     height: 40px;
@@ -261,6 +257,11 @@ header .pag {
     width: max-content;
     page-break-before: always;
     page-break-after: avoid;
+}
+
+.alinhamarcador{
+    width: calc(100% - 3em) !important; 
+    margin-left:3em !important;
 }
 
 /*👉CLASSES PARA DIAGRAMAR👈*/
@@ -499,7 +500,17 @@ header .pag {
     margin: 0 0 0 2em;
 }
 .p1sumariopeso4{
-    margin: 0 0 0 3.6em;
+    margin: 0 0 0 1em;
+}
+.p1sumariopeso4>a, .p1sumariopeso5>a,
+.p1sumariopeso6>a{
+    font-weight: 500;
+}
+.p1sumariopeso5{
+    margin: 0 0 0 1em;
+}
+.p1sumariopeso6{
+    margin: 0 0 0 1em;
 }
 .p1sumarioextrapeso1 a{
     color: var(--verde1);
@@ -833,8 +844,7 @@ o2graficogravata2
 }
 
 
-.o2graficobox .p1graficotit {
-    
+.o2graficobox .p1graficotit {    
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
     font-weight: bold;
@@ -869,8 +879,7 @@ o2graficogravata2
     margin: 1em 0;
 }
 
-.o2mapabox .p1mapatit {
-   
+.o2mapabox .p1mapatit {   
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
     font-weight: bold;
@@ -1012,14 +1021,6 @@ o2graficogravata2
 .p1sec3tit3 {}
 
 .box_aluno .p1sec4tit1 {
-    /*👉background: var(--preto);
-    color: var(--branco);
-    font-family: var(--titulo);
-    font-weight: bold;
-    font-size: var(--peso6);
-    padding: 0.2em 1em;
-    width: max-content;
-    max-width: 100%;👈*/
 
     background: url(../images/pv_p1sec1tit1.svg) top center no-repeat;
     background-size: 100%;
@@ -1300,7 +1301,7 @@ margin:0 0 0 -14px ;
 }
 
 .p2textomarcadorsemrecuo {
-    margin: 0.5em 0 0.5em 28px;
+    margin: 0.5em 0 0.5em 30px;
 }
 
 .p2textomarcadorsemrecuocont {
@@ -1347,7 +1348,6 @@ ul.p2textosubitem li::before {
     font-size: 1.2em;
     margin: 0 0 0 -0.8em;
     position: absolute;
-
 }
 
 p.p2textosubitem {
@@ -1474,20 +1474,20 @@ p.p2textomarcadorsubitem {
 }
 
 .p2questaoletra {
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 
 .p2questaoletracont {
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 
 ul.p2questaoletraitem {
     list-style: disc;
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 p.p2questaoletraitem {
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 p.p2questaoletraitem::before {
@@ -1500,7 +1500,7 @@ p.p2questaoletraitem::before {
 }
 
 .p2questaoletraitemcont {
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 ul.p2questaoitem {
@@ -1759,7 +1759,6 @@ p.p2atvletrasubitem::before {
 }
 
 .p3intermediario {
-    font-size: var(--pesoPadrao);
     margin: 0.5em 0;
 }
 
@@ -1826,11 +1825,11 @@ p.p3intermediariosemrecuoitem::before {
 }
 
 .p3intermediariosemrecuoletra {
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 2.3em;
 }
 
 .p3intermediariosemrecuoletracont {
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 2.3em;
 }
 
 
@@ -1931,11 +1930,11 @@ blockquote.p3citacaoitem::before {
 }
 
 .p3citacaoletra {
-    margin: 0.5em 0 0.5em 1.4em;
+    margin: 0.5em 0 0.5em 2em;
 }
 
 .p3citacaoletracont {
-    margin: 0.5em 0 0.5em 1.4em;
+    margin: 0.5em 0 0.5em 2em;
 }
 
 .p3citacaonumero {
@@ -1954,6 +1953,9 @@ blockquote.p3citacaoitem::before {
 
 /*👉==================== TEXTOS PESO: menor ===========================👈*/
 /* Legenda */
+.p4legenda{
+    padding: 0.5em 0 0 0;
+}
 .p4legenda::before {
     background: url(../images/pv_legenda.svg) top left no-repeat;
     background-size: 100%;
@@ -1961,7 +1963,6 @@ blockquote.p3citacaoitem::before {
     width: 10px;
     height: 4px;
     position: absolute;
-    margin:  0px 0 0 0;
 }
 
 /* Crédito geral */
@@ -1970,6 +1971,7 @@ blockquote.p3citacaoitem::before {
     font-size: var(--pesoPadrao);
     text-align: right;
     margin: 0.5em 0;
+   
 }
 
 /* Cotas */
@@ -1989,7 +1991,11 @@ blockquote.p3citacaoitem::before {
 .p4recadoimagem {
     font-family: var(--texto);
     font-size: var(--pesoMenor);
-    text-align: right;
+    text-align: left;
+    border: 1px solid var(--preto);
+    border-radius: 0.5em;
+    padding:0.2em 0.5em;
+    width: max-content;
 }
 
 /* Crédito Imagem*/
@@ -2164,6 +2170,7 @@ p.p4cuidadodicaitem::before{
     position: absolute;
     text-align: center;
     margin: 0 0 0 -30px;
+    padding: 3px 0 0 0;
     width: 25px;
 }
 
@@ -2180,6 +2187,16 @@ p.p4cuidadodicaitem::before{
 
 figure>.p5marcador2 {
     background: var(--verde1);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+    margin: 0 0 0 0px;
+    position: static;
+    width: 25px;
+}
+figure>.p5marcador {
+    background: var(--preto);
     color: var(--branco);
     font-weight: bold;
     height: 25px;
@@ -2388,10 +2405,10 @@ dd sup {
 
 .c0destaqueletra {
     font-weight: bold;
-    width: 24px;
+    width: 30px;
     height: 24px;
     position: absolute;
-    margin: 0 0 0 -26px;
+    margin: 0 0 0 -34px;
     text-align: center;
 }
 
@@ -2412,10 +2429,10 @@ dd sup {
 
 .c0destaqueromano {
     font-weight: bold;
-    width: 36px;
+    width: 40px;
     height: 36px;
     position: absolute;
-    margin: 0 0 0 -40px;
+    margin: 0 0 0 -45px;
     text-align: right;
 }
 
@@ -2430,18 +2447,20 @@ dd sup {
 
 .c0destaquesomatoria {
     font-weight: 550;
-    width: 12px;
-  height: 12px;
-  position: absolute;
-  margin: 0 0 0 -30px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 0 0 0 -30px;
 }
 
 .c0bulletnumitem {
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  margin: 0 0 0 -12px;
-  font-size: 1.2em;
+    width: 15px;
+    height: 24px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -12px;
+    font-size: 1.2em;
+  
 }
 .c0destaquecap{
     background: var(--vermelho1);
@@ -2795,7 +2814,7 @@ dd sup {
 
 /* BOX AUTOR */
 .o0boxautor {
-    margin: 1EM 0;
+    margin: 1em 0;
 }
 
 .o0boxautor>.p1box2tit {
@@ -3180,7 +3199,7 @@ o4avaliacaobox
     background: var(--verde2);
     border-radius: 1em 1em 0 0;
     padding: 0.2em 1em;
-    width: max-content;F
+    width: max-content;
     max-width: 100%;
 }
 
@@ -3300,7 +3319,6 @@ ul.o4ficha li{
     width: max-content;
 
 }
-
 span.o4ficha {
     border: 3px solid var(--laranja2);
     border-radius: 0.5em;
@@ -3535,6 +3553,37 @@ o5moldura
 o5prancheta
 o5verbetedicionario
 👈*/
+.o5papeleta1>.p5marcador, 
+.o5papeleta2>.p5marcador{
+    margin: -1.1em 0 0 -2.5em;
+}
+.o5bilhete2>.p5marcador,
+.o5bilhete2>.p5marcador{
+    margin: -1.6em 0 0 -3.2em;
+}
+.o5postit1>.p5marcador,
+.o5postit2>.p5marcador{
+    margin: -1.3em 0 0 -3.2em;
+}
+.o5nota1>.p5marcador, 
+.o5nota2>.p5marcador,
+.o5nota3>.p5marcador{
+    margin: -1.3em 0 0 -3.2em;
+}
+
+.o5papeleta1 {
+    border: 1px solid var(--roxo1);
+    background: var(--branco);
+    box-shadow: 10px 6px 0px var(--roxo3);
+    padding: 1em;
+    margin: 1em 0;
+    height: max-content;
+    width: max-content;
+    min-height: 50px;
+    max-width: 100%;
+
+}
+/* VERSÃO DE PARIDADE VISUAL o5papeleta2
 .o5papeleta1 {
     margin: 2em 0;
     width: 350px;
@@ -3563,14 +3612,26 @@ o5verbetedicionario
     max-width: 100%;
     min-height: 250px;
 }
+*/
 
+.o5papeleta2 {
+    border: 1px solid var(--vermelho1);
+    background: var(--branco);
+    box-shadow: 10px 6px 0px var(--vermelho3);
+    padding: 1em;
+    height: max-content;
+    width: max-content;
+    min-height: 50px;
+    max-width: 100% !important;
+    margin: 1em 0;
+}
+
+/* VERSÃO DE PARIDADE VISUAL o5papeleta2
 .o5papeleta2 {
     margin: 2em 0;
     width: 350px;
     min-height: 250px;
 }
-
-
 .o5papeleta2>.camada1 {
     border: 1px solid var(--vermelho1);
     background: var(--branco);
@@ -3579,7 +3640,6 @@ o5verbetedicionario
     width: 350px;
     min-height: 250px;
     z-index: 3;
-
 }
 
 .o5papeleta2>.camada2 {
@@ -3590,15 +3650,18 @@ o5verbetedicionario
     width: 350px;
     min-height: 250px;
 }
+*/
 
 /* Bilhete */
 .o5bilhete1 {
     padding: 1.4em;
     margin: 1em 0;
     border: 4px solid var(--verde2);
-    width: 350px;
+    height: max-content;
+    min-height: 50px;
+    width: max-content;
+    min-width: 150px;
     max-width: 100%;
-    min-height: 200px;
 }
 
 .o5bilhete1::before {
@@ -3638,9 +3701,11 @@ o5verbetedicionario
     padding: 1.4em;
     margin: 1em 0;
     border: 4px solid var(--vermelho2);
-    width: 350px;
+    height: max-content;
+    min-height: 50px;
+    width: max-content;
+    min-width: 150px;
     max-width: 100%;
-    min-height: 200px;
 }
 
 .o5bilhete2::before {
@@ -3659,10 +3724,13 @@ o5verbetedicionario
 .o5postit1 {
     background: var(--laranja3);
     box-shadow: -3px 3px 0px var(--laranja2);
-    padding: 1em;
+    padding: 1.2em 1.5em;
     margin: 1.5em 0;
-    width: 350px;
-    min-height: 200px;
+    height: max-content;
+    min-height: 50px;
+    width: max-content;
+    min-width: 150px;
+    max-width: 100%;
 }
 
 .o5postit1::before {
@@ -3672,17 +3740,21 @@ o5verbetedicionario
     width: 63px;
     height: 22px;
     position: absolute;
-    margin: -1.5em 0 0 8em;
+    margin: -1em 0 0 -2.54em;
     z-index: 10;
+    transform: rotate(-45deg); 
 }
 
 .o5postit2 {
     background: var(--verde3);
     box-shadow: -3px 3px 0px var(--verde2);
-    padding: 1em;
+    padding: 1.2em 1.5em;
     margin: 1.5em 0;
-    width: 350px;
-    min-height: 200px;
+    height: max-content;
+    min-height: 50px;
+    width: max-content;
+    min-width: 150px;
+    max-width: 100%;
 }
 
 .o5postit2::before {
@@ -3692,11 +3764,38 @@ o5verbetedicionario
     width: 63px;
     height: 22px;
     position: absolute;
-    margin: -1.5em 0 0 8em;
+    margin: -1em 0 0 -2.54em;
     z-index: 10;
+    transform: rotate(-45deg); 
 }
 
 /* Notas */
+.o5nota1 {
+    background: var(--verde3);
+    box-shadow: 10px 6px 0px var(--verde2);
+    padding: 1.5em;
+    margin: 2.5em 0;
+    min-width: 150px;
+    width: max-content;
+    max-width: 100%;
+    height: max-content;
+    min-height:50px;
+}
+
+.o5nota1::before {
+    background: url(../images/pv_bilhete1.svg) no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 34px;
+    position: absolute;
+    margin: -2.2em 0 0 -0.5em;
+    z-index: 10;
+}
+
+
+
+/* Versão com paridade visual
 .o5nota1 {
     margin: 2.5em 0;
     width: 350px;
@@ -3718,7 +3817,7 @@ o5verbetedicionario
 .o5nota1>.camada1 {
     background: var(--vermelho3);
     padding: 1em;
-    position: absolute;
+    position: absolute;             
     width: 350px;
     max-width: 100%;
     min-height: 250px;
@@ -3726,7 +3825,7 @@ o5verbetedicionario
 
 }
 
-.o5nota1>.camada2 {
+.o5nota1>.camada2 { 
     background: var(--vermelho2);
     position: absolute;
     z-index: 2;
@@ -3736,7 +3835,32 @@ o5verbetedicionario
     min-height: 250px;
 }
 
+*/
 
+.o5nota2{
+    background: var(--vermelho3);
+    box-shadow: 10px 6px 0px var(--vermelho2);
+    padding: 1.5em;
+    margin: 2.5em 0;
+    min-width: 150px;
+    width: max-content;
+    max-width: 100%;
+    height: max-content;
+    min-height:50px;
+}
+
+.o5nota2::before {
+    background: url(../images/pv_bilhete2.svg) no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 34px;
+    position: absolute;
+    margin: -2.2em 0 0 -0.5em;
+    z-index: 10;
+}
+
+/* Versão com paridade visual
 
 .o5nota2 {
     margin: 2.5em 0;
@@ -3777,6 +3901,19 @@ o5verbetedicionario
     min-height: 250px;
 }
 
+*/
+
+.o5nota3{
+    background: var(--cinza);
+    box-shadow: 10px 6px 0px var(--vermelho2);
+    padding: 1.5em;
+    margin: 2.5em 0;
+    min-width: 150px;
+    width: max-content;
+    max-width: 100%;
+    height: max-content;
+    min-height:50px;
+}
 
 /* Navegador */
 .o5navegador {
@@ -3787,7 +3924,8 @@ o5verbetedicionario
     background: var(--laranja3);
     border-radius: 0.3em;
     padding: 1em;
-    min-height: 350px;
+    height: max-content;
+    min-height: 50px;
 }
 
 .barranavegador {
@@ -3926,6 +4064,8 @@ o5verbetedicionario
     background: var(--branco);
     border-radius: 0.5em;
     padding: 0.5em 1em;
+    height: max-content;
+    min-height: 50px;
 }
 .corpoemail>hr{
     border-bottom: 1px solid var(--preto);
@@ -3957,6 +4097,17 @@ o5verbetedicionario
     margin: 1em 0;
 }
 
+.o5emailrecorte>.p5marcador {
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: -1.5em 0 0 -2.5em;
+    padding: 3px 0 0 0;
+    width: 25px;
+  }
 
 /* ------------------👉 CLASSES PARA PÁGINAS INICIAIS CONFIRMAR COM BRUNA 👈----------------------*/
 /* 
