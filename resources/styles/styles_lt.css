@@ -519,7 +519,7 @@ header .pag {
 }
 
 .secao_renomear{
-    background: url(../images/pv_secsumario.svg)  no-repeat;
+    /*👉background: url(../images/pv_secsumario.svg)  no-repeat;👈*/
     background-position-y:9px ;
     padding: 0 0 0 1.2em;
     margin: 0 0 0 0.6em;
@@ -1222,7 +1222,8 @@ o2graficogravata2
 .p2atvmarcador,
 .p2atvmarcadorcont,
 .p2atvsomatoria,
-.p2atvsomatoriacont {
+.p2atvsomatoriacont,
+.p2atvletramarcador  {
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -1636,6 +1637,9 @@ p.p2atvsubitem {
 
 .p2atvletra {
     margin: 0.5em 0 0.5em 3em;
+}
+.p2atvletramarcador  {
+    margin: 0.5em 0 0.5em 5em;
 }
 
 .p2atvletracont {
@@ -2159,8 +2163,9 @@ p.p4cuidadodicaitem::before{
     height: 25px;
     position: absolute;
     text-align: center;
-    margin: 0 0 0 -30px;
-    width: 25px;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 0 4px;
 }
 .p5marcador {
     background: var(--preto);
@@ -2403,6 +2408,21 @@ dd sup {
 
 .c4glossariodestaqueitalico {}
 
+/* Geral */
+/* 
+c0destaqueletra
+c0destaqueletracitacao
+c0destaquenumero
+c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
+c0destaqueromano
+c0destaquequestaonumero
+c0destaquesomatoria
+c0bulletnumitem
+c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
+c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
+c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
+*/
+
 .c0destaqueletra {
     font-weight: bold;
     width: 30px;
@@ -2411,7 +2431,6 @@ dd sup {
     margin: 0 0 0 -34px;
     text-align: center;
 }
-
 .c0destaquenumero {
     font-weight: bold;
     width: 24px;
@@ -2420,13 +2439,11 @@ dd sup {
     margin: 0 0 0 -26px;
     text-align: center;
 }
-
 .c0destaquequestaonumero {
     color: var(--verde1);
     font-family: var(--titulo);
     font-weight: bold;
 }
-
 .c0destaqueromano {
     font-weight: bold;
     width: 40px;
@@ -2435,7 +2452,6 @@ dd sup {
     margin: 0 0 0 -45px;
     text-align: right;
 }
-
 .c0destaqueletracitacao{
     font-weight: bold;
     width: 24px;
@@ -2444,7 +2460,6 @@ dd sup {
     margin: 0 0 0 -26px;
     text-align: center;
 }
-
 .c0destaquesomatoria {
     font-weight: 550;
     width: 30px;
@@ -2452,7 +2467,6 @@ dd sup {
     position: absolute;
     margin: 0 0 0 -30px;
 }
-
 .c0bulletnumitem {
     width: 15px;
     height: 24px;
@@ -2471,9 +2485,7 @@ dd sup {
     background: var(--preto);
     color: var(--branco);
     padding:0 0.5em  0.2em 0.5em;
-  
 }
-
 .c0destaquenumerocitacao {
     font-weight: bold;
     position: absolute;
@@ -3552,6 +3564,8 @@ o5lousa
 o5moldura
 o5prancheta
 o5verbetedicionario
+o5email
+o5email2
 👈*/
 .o5papeleta1>.p5marcador, 
 .o5papeleta2>.p5marcador{
@@ -3954,8 +3968,8 @@ o5verbetedicionario
     background: url(../images/ico_quadrobranco.svg) bottom right no-repeat var(--branco);
     background-position-x: 98%;
     background-position-y: 99%;
-    border: 6px solid var(--roxo1);
-    border-bottom: 8px solid var(--roxo1);
+    border: 6px solid var(--laranja2);
+    border-bottom: 8px solid var(--laranja2);
     padding: 1em;
     margin: 1em 0;
     min-height: 300px;
@@ -3974,10 +3988,10 @@ o5verbetedicionario
     min-height: 300px;
 }
 
-/* Moudura */
+/* Moldura */
 .o5moldura {
-    background: url(../images/pv_moudura.svg) top left no-repeat,
-        url(../images/pv_moudura.svg) bottom left no-repeat;
+    background: url(../images/pv_moldura.svg) top left no-repeat,
+        url(../images/pv_moldura.svg) bottom left no-repeat;
     background-size: contain;
     padding: 1.5em 0;
 }
@@ -4312,7 +4326,30 @@ o5verbetedicionario
     }
 
 
+    .p1referenciasbibliotit1 {
+        background: var(--preto);
+        color: var(--branco);
+        font-family: var(--titulo);
+        font-size: var(--peso5);
+        font-weight: bold;
+        width: max-content;
+        max-width: 100%;
+        padding: 0.1em 1em 0.4em 1em;
+        margin: 1em 0 0 0em;
+      }
 
+      .p1sec4tit2 {
+        background: var(--verde2);
+        border-radius: 0 4em 4em 0;
+        color: var(--preto);
+        font-family: var(--titulo);
+        font-size: var(--pesoPadrao);
+        width: max-content;
+        max-width: 60%;
+        margin: 0 0 0 110px;
+        position: absolute;
+        padding: 0.2em 1em 0.4em 1.5em;
+      }
 
 
 }

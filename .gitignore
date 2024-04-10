@@ -22,3 +22,11 @@ resources/images/f0303b_1p006s2l_g26_e002/f0303b_1p006s2l_g26_e002_r.png
 resources/images/f0303b_1p006s2l_g26_e002/Thumbs.db
 resources/images/moedasecedulas/Thumbs.db
 .gitignore
+content/chapter.xhtml
+resources/images/pv_moldura.svg
+resources/images/pv_moudura.svg
+resources/images/infografico1/Thumbs.db
+resources/styles/instrucoes.css
+resources/styles/styles_lt.css
+resources/styles/styles_mp.css
+.gitignore
