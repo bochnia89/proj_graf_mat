@@ -248,11 +248,11 @@ p3intermediarioresosemrecuoitemcont
 
 ul.p2atvresoitem {
     list-style: disc;
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 p.p2atvresoitem {
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 p.p2atvresoitem::before {
@@ -266,7 +266,7 @@ p.p2atvresoitem::before {
 
 
 .p2atvresoitemcont {
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 ul.p2atvresosubitem {
@@ -294,31 +294,31 @@ p.p2atvresosubitem::before {
 
 
 .p2atvresoitemletracont {
-    margin: 0.5em 0 0.5em 6em;
+    margin: 0.5em 0 0.5em 6.5em;
 }
 
 .p2atvresoletra {
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 4em;
 }
 .p2atvresoletrasubromano{
-    margin: 0.5em 0 0.5em 6em;
+    margin: 0.5em 0 0.5em 6.5em;
 }
 
-.p2atvresoletrasubromano>.c0destaqueletra {
+.p2atvresoletrasubromano>.c0destaqueletramp {
     margin: 0 0 0 -75px;
   }
 
 .p2atvresoletracont {
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 4em;
 }
 
 ul.p2atvresoletraitembullet {
     list-style: disc;
-    margin: 0.5em 0 0.5em 5.5em;
+    margin: 0.5em 0 0.5em 4.5em;
 }
 
 p.p2atvresoletraitembullet {
-    margin: 0.5em 0 0.5em 5.5em;
+    margin: 0.5em 0 0.5em 4.5em;
 }
 
 p.p2atvresoletraitembullet::before {
@@ -331,11 +331,11 @@ p.p2atvresoletraitembullet::before {
 }
 
 .p2atvresoletraitembulletcont {
-    margin: 0.5em 0 0.5em 5.5em;
+    margin: 0.5em 0 0.5em 4.5em;
 }
 
 .p2atvresoletraromano {
-    margin: 0.5em 0 0.5em 6em;
+    margin: 0.5em 0 0.5em 6.5em;
 }
 
 .p2atvresoletraromanocont {
@@ -343,24 +343,24 @@ p.p2atvresoletraitembullet::before {
 }
 
 .p2atvresonumitem {
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3em;
 }
-.p2atvresonumitem>.c0destaquenumero {
-    margin: 0 0 0 -37px;
+.p2atvresonumitem>.c0destaquenumeromp {
+    margin: 0 0 0 -45px;
   }
-.p2atvresonumitem>.c0bulletnumitem {
-    margin: 0 0 0 -14px;
+.p2atvresonumitem>.c0bulletnumitemmp {
+    margin: 0 0 0 -24px;
   }
 
 .p2atvresonumletra {
     margin: 1em 0 0em 3.7em;
 }
 
-.p2atvresonumletra>.c0destaquenumero {
+.p2atvresonumletra>.c0destaquenumeromp {
     margin: 0 0 0 -54px;
 }
 
-.p2atvresonumletra>.c0destaqueletra {
+.p2atvresonumletra>.c0destaqueletramp {
     margin: 0 0 0 -30px;
 }
 
@@ -368,15 +368,15 @@ p.p2atvresoletraitembullet::before {
     margin: 1em 0 0em 4.3em;
 }
 
-.p2atvresonumletraitem>.c0destaquenumero {
+.p2atvresonumletraitem>.c0destaquenumeromp {
     margin: 0 0 0 -64px;
 }
 
-.p2atvresonumletraitem>.c0destaqueletra {
+.p2atvresonumletraitem>.c0destaqueletramp {
     margin: 0 0 0 -40px;
 }
 
-.p2atvresonumletraitem > .c0bulletnumitem {
+.p2atvresonumletraitem > .c0bulletnumitemmp {
     font-size: 1.2em;
     width: 10px;
     height: 24px;
@@ -388,10 +388,10 @@ p.p2atvresoletraitembullet::before {
 .p2atvresoletraitem {
     margin: 1em 0 0em 4em;
 }
-.p2atvresoletraitem > .c0destaqueletra{
+.p2atvresoletraitem > .c0destaqueletramp{
    margin: 0 0 0 -40px;
 }
-.p2atvresoletraitem> .c0bulletnumitem {
+.p2atvresoletraitem> .c0bulletnumitemmp {
     font-size: 1.2em;
     width: 10px;
     height: 24px;
@@ -403,13 +403,13 @@ p.p2atvresoletraitembullet::before {
     margin: 0.5em 0 0.5em 4.7em;
 }
 
-.p2atvresonumromano>span.c0destaquenumero {
+.p2atvresonumromano>span.c0destaquenumeromp {
     font-weight: bold;
     margin: 0 0 0 -69px;
 }
 
-.p2atvresonumromano>span.c0destaqueromano {
-    margin: 0 0 0 -44px;
+.p2atvresonumromano>span.c0destaqueromanomp {
+    margin: 0 0 0 -36px;
 }
 
 .p2atvresosomatoria {
@@ -544,7 +544,7 @@ margin:0 0 0 -12px ;
 
 /*👉---- ESTILOS DE CARACTERES ---👈*/
 
-.c0bulletnumitem {}
+.c0bulletnumitemmp {}
 
 /* FIXME: verificar com a Cyn*/
 
