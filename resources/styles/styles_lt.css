@@ -121,6 +121,8 @@ table p {
     margin: 0px;
     padding: 0;
 }
+dfn sup{}
+dd sup{}
 
 .media50 tr td {
     width: 50%;
@@ -158,20 +160,42 @@ table p {
 */
 
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
+/* 
+d0box_aluno
+d0box_geralmp
+d0box_especificompu
+d0box_resolucoesmp
+d0box_respostas
+
+aluno
+professor
+url_para_encurta
+pag
+caracterizada
+descaracterizada
+ajustepronuncia
+conteudooriginal
+conteudoadaptado
+creditoimagemoed
+creditoimagem
+creditoimagemresposta
+creditoimagempage
+orienta
+orientatx
+ocultatx
+ocultamn
+hifen_ano
+*/
 .aluno {}
-
 .professor {}
-
 .url_para_encurta {}
-
 .pag {}
 
-.box_aluno {
+.d0box_aluno {
     padding: 0.5em 0 1em 0;
 }
 
-
-.box_professor_mp {
+.d0box_especificompu {
     background: var(--manualu);
     padding: 0 1em 1em 1em;
 }
@@ -179,21 +203,13 @@ table p {
 .caracterizada {}
 
 .descaracterizada {}
-
 .ajustepronuncia {}
-
-.conteudoOriginal {}
-
-.conteudoAdaptado {}
-
-.creditoimagemOED {}
-
+.conteudooriginal {}
+.conteudoadaptado {}
+.creditoimagemoed {}
 .creditoimagem {}
-
-.creditoimagemResposta {}
-
-.creditoimagemPage {}
-
+.p4credimagemresposta{}
+.creditoimagempage {}
 .orienta {
     background: var(--roxo2);
     border-radius: 0 0 1em 1em;
@@ -204,17 +220,13 @@ table p {
     margin: 0 0 1em 0;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
-
 .orientatx {}
-
 .ocultatx, .ocultamn{
     color: transparent;
 }
-
 .ocultamn{
     font-size: 0.3em;
 }
-
 .ocultatx {
     font-size: 0.9em;
 }
@@ -249,7 +261,6 @@ table p {
 header .pag {
     align-self: flex-end;
 }
-
 .pag {
     color: #000;
     font-weight: bold;
@@ -258,12 +269,10 @@ header .pag {
     page-break-before: always;
     page-break-after: avoid;
 }
-
 .alinhamarcador{
     width: calc(100% - 3em) !important; 
     margin-left:3em !important;
-}
-
+} 
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
 .col2 {
@@ -411,12 +420,38 @@ header .pag {
 }
 
 /*👉 ==========SUMÁRIO========👈*/
+/* 
+secsumario
+sumariosecinicial
+navsumario
+
+p1sumariopv
+
+p1seciniciaistit1
+p1seciniciaistit2
+p1sumariopeso1pv
+p1sumariopeso1
+p1sumariopeso2
+p1sumariopeso3
+p1sumariopeso4
+p1sumariopeso5
+p1sumarioextrapeso1
+p1sumarioextrapeso2
+p1sumarioextrapeso3
+p1sumariopeso1numero
+p1sumariopeso2numero
+p1sumariooedpv
+p1sumariooedpeso1
+p1sumariooedpeso2
+
+*/
 .p1seciniciaistit1,
 .p1sumariopeso1pv,
 .p1sumariopeso1,
 .p1sumariopeso2,
 .p1sumariopeso3,
 .p1sumariopeso4,
+.p1sumariopeso5,
 .p1sumarioextrapeso1{}
 
 .p1sumariopeso1pv a,
@@ -583,6 +618,22 @@ header .pag {
 
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
+/* 
+p0tit1
+p0tit1numpv
+p0tit1pv
+p0tit2
+p0tit2numpv
+p0tit2pv
+p0tit3
+p0tit4
+p0tit5
+p0tit6
+p0tit3negativo
+p0tit4negativo
+p0tit5negativo
+p0tit6negativo
+*/
 .tit1 {
     align-items: center;
     background: url(../images/pv_capitulo.svg) top left no-repeat var(--vermelho1);
@@ -596,9 +647,7 @@ header .pag {
     justify-content: center;
     padding: 0 1em;
     width: max-content;
-
 }
-
 .tit1::before {
     content: '';
     background: url(../images/pv_capitulo_bg.svg) top left no-repeat;
@@ -608,15 +657,12 @@ header .pag {
     position: absolute;
     width: 150px;
     z-index: -10;
-
 }
-
 .p0tit1,
 .p0tit1numpv,
 .p0tit1pv {
     font-family: var(--titulo);
 }
-
 .p0tit1 {
     background: var(--laranja2);
     font-size: var(--peso1);
@@ -770,6 +816,13 @@ header .pag {
 /* TÍTULOS DE ELEMENTOS */
 
 /* Tabelas e Quadros */
+/* 
+p1tabelatit
+p1tabelatitcoluna
+p1tabelatexto
+p1tabelatextoitem
+p1tabelatextoitemcont
+*/
 .p1tabelatit {
     font-family: var(--titulo);
     font-size: 1.1em ;
@@ -830,6 +883,7 @@ header .pag {
 
 /* Gráficos */
 /* 
+p1graficotit
 o2graficogravata1
 o2graficogravata2
 */
@@ -837,13 +891,10 @@ o2graficogravata2
     display: table;
     margin: 1em 0;
 }
-
 .o2graficobox figure {
     border: 1px solid var(--verde2);
     margin: 0;
 }
-
-
 .o2graficobox .p1graficotit {    
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
@@ -853,7 +904,6 @@ o2graficogravata2
     display: table-caption;
     caption-side: top;
 }
-
 .o2graficobox  .p1graficotit {   
     border-radius: 0.5em 0.5em 0 0;
     font-family: var(--titulo);
@@ -871,8 +921,12 @@ o2graficogravata2
 }
 
 /* maps */
+/* 
+p1mapatit
+o2mapagravata1
+o2mapagravata2
+*/
 .p1mapatit {}
-
 .o2mapabox{
     border: none;
     display: table;
@@ -896,26 +950,57 @@ o2graficogravata2
     background: var(--branco);
 }
 
-/* Título Box */
+/* TÍTULO BOX */
+/* 
+p1box1tit
+p1box2tit
+p1box3tit
+*/
 .p1box1tit {
     font-family: var(--titulo);
     font-weight: bold;
     color: var(--branco);
 }
-
 .p1box2tit {
     font-family: var(--titulo);
     font-weight: bold;
     color: var(--preto);
 }
-
-/* Título Seção */
+/* TÍTULO SEÇÃO */
+/* 
+p1sec1tit1
+p1sec1tit2
+p1sec1tit3
+p1sec1tit4
+p1sec2tit1
+p1sec2tit2
+p1sec2tit3
+p1sec2tit4
+p1sec3tit1
+p1sec3tit2
+p1sec3tit3
+p1sec3tit4
+p1sec4tit1
+p1sec4tit2
+p1sec4tit3
+p1sec4tit4
+p1sec5tit1
+p1sec5tit2
+p1sec5tit3
+p1sec5tit4
+p1sec6tit1
+p1sec6tit2
+p1sec6tit3
+p1sec6tit4
+p1sec7tit1
+p1sec7tit2
+p1sec7tit3
+p1sec7tit4
+*/
 .sectits {
     position: relative;
 }
-
 .p1sec1tit1 {
-
     background: var(--preto);
     color: var(--branco);
     font-family: var(--titulo);
@@ -924,11 +1009,7 @@ o2graficogravata2
     padding: 0.2em 1em;
     width: max-content;
     max-width: 100%;
-
 }
-
-
-
 .p1sec1tit2 {
     background: var(--verde2);
     border-radius: 0 4em 4em 0;
@@ -941,10 +1022,7 @@ o2graficogravata2
     position: absolute;
     padding: 0.2em 1em 0.4em 3em;
 }
-
 .p1sec1tit3 {}
-
-
 .sectits2 {
     background: url(../images/pv_sec2.svg) top center no-repeat;
     display: flex;
@@ -954,7 +1032,6 @@ o2graficogravata2
     height: 115px;
     margin: 0 0 0 20px;
 }
-
 .sectits2::before {
     content: '';
     background: url(../images/pv_sec2_before.svg) top center no-repeat;
@@ -965,7 +1042,6 @@ o2graficogravata2
     margin: -70px 0 0 170px;
     z-index: 5;
 }
-
 .p1sec2tit1 {
     color: var(--verde1);
     font-family: var(--titulo);
@@ -975,7 +1051,6 @@ o2graficogravata2
     text-align: left;
     padding: 0.5em 0 0 0;
 }
-
 .p1sec2tit2 {
     color: var(--preto);
     font-family: var(--titulo);
@@ -985,7 +1060,6 @@ o2graficogravata2
     text-align: left;
     padding: 0.5em 0 0 0;
 }
-
 .p1sec2tit3 {
     background: url(../images/pv_p1sec2tit2.svg) top left no-repeat;
     background-size: 15px;
@@ -996,7 +1070,6 @@ o2graficogravata2
     padding: 0 0 0 1em;
     margin: 1em 0 0.5em 0;
 }
-
 .p1sec2tit4 {
     font-family: var(--titulo);
     font-weight: bold;
@@ -1004,7 +1077,6 @@ o2graficogravata2
     padding: 0 0 0 0;
     margin: 1em 0 0.5em 0;
 }
-
 .p1sec3tit1 {
     background: var(--preto);
     color: var(--branco);
@@ -1015,13 +1087,9 @@ o2graficogravata2
     width: max-content;
     max-width: 100%;
 }
-
 .p1sec3tit2 {}
-
 .p1sec3tit3 {}
-
-.box_aluno .p1sec4tit1 {
-
+.d0box_aluno .p1sec4tit1 {
     background: url(../images/pv_p1sec1tit1.svg) top center no-repeat;
     background-size: 100%;
     color: var(--branco);
@@ -1037,8 +1105,6 @@ o2graficogravata2
     margin: -40px 0 0 50px;
     z-index: 3;
 }
-
-
 .p1sec4tit1>p {
     background: var(--preto);
     border-radius: 1em;
@@ -1051,7 +1117,6 @@ o2graficogravata2
     width: 100px;
     text-align: center;
 }
-
 .p1sec4tit2 {
     background: var(--verde2);
     border-radius: 0 4em 4em 0;
@@ -1064,9 +1129,7 @@ o2graficogravata2
     position: absolute;
     padding: 0.2em 1em 0.4em 3em;
 }
-
 .p1sec4tit3 {}
-
 .p1sec5tit1 {
     background: var(--preto);
     border-radius: 1em 1em 0 0;
@@ -1077,7 +1140,6 @@ o2graficogravata2
     width: max-content;
     max-width: 100%;
 }
-
 .p1sec5tit1::before {
     background: url(../images/pv_sintesecap.svg) no-repeat;
     background-size: 100%;
@@ -1087,9 +1149,7 @@ o2graficogravata2
     position: absolute;
     margin: -5px 0 0 -55px;
     z-index: 10;
-
 }
-
 .p1sec5tit1::after {
     background: url(../images/pv_sintesecap_bg.svg) no-repeat;
     background-size: 100%;
@@ -1100,14 +1160,11 @@ o2graficogravata2
     margin: -20px 0 0 -180px;
     z-index: -10;
 }
-
 .p1sec5tit2 {
     font-family: var(--titulo);
     font-weight: bold;
 }
-
 .p1sec5tit3 {}
-
 .p1sec6tit1 {
     background: url(../images/pv_p1sec6tit1.svg) top center no-repeat;
     background-size: 100%;
@@ -1124,7 +1181,6 @@ o2graficogravata2
     margin: -40px 0 0 50px;
     z-index: 3;
 }
-
 .p1sec6tit1>h2 {
     background: var(--preto);
     border-radius: 1em;
@@ -1139,25 +1195,47 @@ o2graficogravata2
 }
 
 .p1sec6tit2 {}
-
 .p1sec6tit3 {}
+.p1sec6tit4 {}
+.p1sec7tit1{}
+.p1sec7tit2{}
+.p1sec7tit3{}
+.p1sec7tit4{}
 
-/*👉======= TEXTOS PESO: principal =======👈*/
-/* Texto Principal */
+
+/*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /*
-.p2referenciasbiblio
-.p2referenciasbiblio
-.p2referenciasbibliocoment
+p1referenciasbibliotit1
+p1referenciasbibliotit2
+p1referenciasbibliotit3
+p2referenciasbiblio
+p2referenciasbiblioitem
+p2referenciasbibliocoment
 */
 .p2referenciasbiblio {
     margin: 1em 0 0.1em 0;
     word-break: break-all;
 }
-
 .p2referenciasbibliocoment {
     margin: 0 0 0.5em 0;
 }
-
+/* TEXTO SEM RECUO PRINCIPAL */
+/* 
+p2textosemrecuo
+p2textosemrecuoitem
+p2textosemrecuoitemcont
+p2textonumsemrecuo
+p2textosemrecuonum
+p2textomarcadorsemrecuo
+p2textomarcadorsemrecuocont
+p2textomarcadorsemrecuoromano
+p2textosemrecuonumcont
+p2textosemrecuonumitem
+p2textosemrecuonumitemcont
+p2textosemrecuonumletra
+p2textosemrecuonumletracont
+p2textosemrecuoletra
+*/
 
 .p2textosemrecuo,
 .p2textosemrecuoitem,
@@ -1732,7 +1810,7 @@ p.p2atvletrasubitem::before {
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
-/* Textos intermediários */
+/* TEXTOS INTERMEDIÁRIOS */
 .p3intermediario,
 .p3intermediarioitem,
 .p3intermediarioitemcont,
@@ -1754,18 +1832,14 @@ p.p2atvletrasubitem::before {
     text-align: left;
     max-width: 100%;
 }
-
-
 .p3intermediariotit {
     font-family: var(--titulo);
     font-weight: bold;
     margin: 0.5em 0;
 }
-
 .p3intermediario {
     margin: 0.5em 0;
 }
-
 ul.p3intermediarioitem {
     list-style: disc;
     margin: 0.5em 0 0.5em 1em;
@@ -1823,7 +1897,6 @@ p.p3intermediariosemrecuoitem::before {
     position: absolute;
     margin: 0 0 0 -12px;
 }
-
 .p3intermediariosemrecuoitemcont {
     margin: 0.5em 0 0.5em 1em;
 }
@@ -2339,6 +2412,8 @@ figure>.p5marcadorcaixa2 {
     font-style: italic;
 }
 
+.c3idiomasimuladorhiperlink{}
+
 .c3idiomaresposta {
     color: var(--corprof);
     background: var(--vermelho2);
@@ -2359,6 +2434,14 @@ figure>.p5marcadorcaixa2 {
     font-style: italic;
     font-weight: bold;
 }
+
+/* idioma vocabulario */
+/* 
+c3idiomavocabulariodestaque
+c3idiomavocabulariodestaqueitalico
+*/
+.c3idiomavocabulariodestaque{}
+.c3idiomavocabulariodestaqueitalico{}
 
 .c4ordinal {
     font-family: var(--ordinal);
@@ -2476,7 +2559,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
     font-size: 1.2em;
   
 }
-.c0destaquecap{
+.c0destaquecap, .c0destaquecapmp{
     background: var(--vermelho1);
     color: var(--branco);
     padding:0 0.5em  0.2em 0.5em;
@@ -4229,7 +4312,7 @@ o5email2
         margin: 0 10px;
     }
 
-    .box_aluno {
+    .d0box_aluno {
         padding: 0.5em 0 1em 0;
     }
 
