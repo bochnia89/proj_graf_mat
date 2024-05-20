@@ -841,7 +841,7 @@ p0tit6negativo
     max-width: 100%;
 }
 
-.sectitatv>.anote {
+.sectitatv>.d0anote {
     background: var(--roxo2);
     border-radius: 0em 1.2em 0 0;
     font-family: var(--texto);
@@ -1125,6 +1125,20 @@ p1sec7tit4
     padding: 0.2em 1em;
     width: max-content;
     max-width: 100%;
+}
+.o0sec3>.p1sec3tit1{
+    display: inline-block;
+}
+.p1sec3tit1+.d0anote{
+    display: inline;
+    background: var(--roxo2);
+  border-radius: 0em 1.2em 0 0;
+  font-family: var(--texto);
+  font-weight: normal;
+  font-size: var(--pesoMenor);
+  padding: 0.2em 1em 0.4em 1em;
+  width: max-content;
+  max-width: 100%;
 }
 .p1sec3tit2 {}
 .p1sec3tit3 {}
@@ -4418,7 +4432,9 @@ o5email2
 
 
 
-
+    .o0sec3>.p1sec3tit1{
+        display: block;
+    }
 
     .o0sec4>.sectits>.p1sec4tit1 {
         background: url(../images/pv_p1sec1tit1.svg) top center no-repeat;
