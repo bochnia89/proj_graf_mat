@@ -2399,7 +2399,7 @@ figure>.p5marcadorcaixa2 {
     font-size: var(--pesoPadrao);
 }
 
-.p5aberturaobjitem {
+ul.p5aberturaobjitem {
     list-style: disc;
     margin: 0.5em 0 0.5em 1em;
 }
