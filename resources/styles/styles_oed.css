@@ -114,6 +114,21 @@ strong em {
     font-style: italic;
 }
 
+/*👉d2hyperlinkoed classe específica para aparência de urls en OEDs👈*/
+a.d2hyperlinkoed {
+    color: #053499;
+    font-size: var(--pesoPadrao);
+    text-decoration: underline;
+}
+
+a.d2hyperlinkoed:visited {
+    color: #4f0792;
+}
+
+a.d2hyperlinkoed:hover {
+    color: rgb(134, 0, 0);
+}
+
 .ocultatx, .ocultamn {
     color: transparent;
    }
@@ -129,6 +144,7 @@ strong em {
 .hifen_ano{
     margin-left: -8px;
 }
+
 .url_para_encurtar{
     word-break: break-all;
 }
@@ -260,6 +276,7 @@ strong em {
 .credito {
     /*👉display: flex;👈*/
     /*👉flex-direction: row-reverse;👈*/
+    margin: 0.5em 0 0 0 ;
 }
 
 /*👉classes adicionadas para OED vídeo e áudio👈*/
