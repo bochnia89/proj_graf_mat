@@ -246,17 +246,17 @@ p.p2atvgabsubitem{
 }
 
 .p2atvgabletra{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.8em;
     max-width: 100%;
 }
 .p2atvgabletracont{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.8em;
     max-width: 100%;
 }
 ul.p2atvgabletraitembullet,
 p.p2atvgabletraitembullet{
     list-style: disc;
-    margin:  0.5em 0 0.5em 3.5em; 
+    margin:  0.5em 0 0.5em 4.5em; 
 }
 p.p2atvgabletraitembullet::before{
     content: ''; /*content: '•';*/
@@ -267,13 +267,13 @@ p.p2atvgabletraitembullet::before{
     position: absolute;
 }
 .p2atvgabletraitembulletcont{
-    margin:  0.5em 0 0.5em 3.5em; 
+    margin:  0.5em 0 0.5em 4.5em; 
 }
 .p2atvgabletraromano{
-    margin:  0.5em 0 0.5em 4.5em; 
+    margin:  0.5em 0 0.5em 5.5em; 
 }
 .p2atvgabletraromanocont{
-    margin:  0.5em 0 0.5em 4.5em; 
+    margin:  0.5em 0 0.5em 5.5em; 
 }
 
 /* Atividade Gab Num */
