@@ -20,487 +20,312 @@
     "prefix": "modeloSnippet",
     "body": [
       "\"$1 \": {",
-      "\"prefix\": \"$2\",",
+      "\"prefix\": \"snip$2\",",
       "\"body\": [",
       "$3",
       "],",
-      "\"description\": \"mode de $4\"",
+      "\"description\": \"modelo de $4\"",
       "},"
     ],
     "description": "Log output to console"
   },
 
-  "Modelo de abertura ": {
-    "prefix": "modeloAberturaEJA",
-    "body": [
-      "<div class=\"boxabertura\">",
-      "<div class=\"boxaberturatit\">",
-      "<p class=\"tit1\">",
-      "<span class=\"p0tit1pv\">Capítulo</span>",
-      "<span class=\"p0tit1numpv\">$1</span>",
-      "</p>",
-      "<h1 class=\"p0tit1\">$2</h1>",
-      "</div>",
-      "",
-      "<figure class=\"imgAbertura\">",
-      "<img src=\"../resources/images/$3\" alt=\"texto alternativo\" width=\"740\" height=\"844\" />",
-      "<figcaption class=\"p4legenda\">$4</figcaption>",
-      "</figure>",
-      "",
-      "<div class=\"o0aberturaatvbox\">",
-      "<p class=\"o0aberturaatvboxTit\">Titulo atividade</p>",
-      "<p class=\"p2textomarcadorsemrecuo\"><span class=\"p5marcador2\">1.</span> $5</p>",
-      "<p class=\"p2textomarcadorsemrecuo\"><span class=\"p5marcador2\">2.</span> $6</p>",
-      "</div>",
-      "",
-      "<div class=\"o0aberturaobjbox\">",
-      "<p class=\"p5aberturaobjtit\">Neste capítulo você vai:</p>",
-      "<ul class=\"p5aberturaobjitem\">",
-      "$7",
-      "</ul>",
-      "</div>",
-      "</div>"
-    ],
-    "description": "mode de abertura do capítulo do livro (EJA)"
+  "Título nível 1 MPG": {
+  "prefix": "snipp0tit1mp",
+  "body": [
+      "<h1 class=\"p0tit1mp\">TítuloMpgNivel1</h1>",
+  ],
+  "description": "modelo de p0tit1mp"
+  },
+  
+  "Título nível 2 MPG": {
+  "prefix": "snipp0tit2mp",
+  "body": [
+      "<h2 class=\"p0tit2mp\">TítuloMpgNivel2</h2>",
+  ],
+  "description": "modelo de p0tit2mp"
   },
 
-  //TÍTULOS
-
-  "Título de nível dois ": {
-    "prefix": "tituloNivel2",
-    "body": ["<h2 class=\"p0tit2\">$1</h2>"],
-    "description": "mode de título de nível dois"
+  "Título nível 3 MPG": {
+  "prefix": "snipp0tit3mp",
+  "body": [
+      "<h3 class=\"p0tit3mp\">Título do mpg de nível três</h3>",
+  ],
+  "description": "modelo de p0tit3mp"
   },
 
-  "Título de nível três ": {
-    "prefix": "tituloNivel3",
-    "body": ["<h3 class=\"p0tit3\">$1</h3>"],
-    "description": "mode de título de nível três"
-  },
+"Ícone OED MPG": {
+"prefix": "snipp4iconeoedmp",
+"body": [
+    "<p class=\"p4iconeoedmp\">Objeto digital</p>",
+],
+"description": "modelo de p4iconeoedmp"
+},
 
-  "Título de nível quatro ": {
-    "prefix": "tituloNivel4",
-    "body": ["<h4 class=\"p0tit4\">$1</h4>"],
-    "description": "mode de título de nível quatro"
-  },
+"P2 Texto MP": {
+"prefix": "snipp2textomp",
+"body": [
+    "<p class=\"p2textomp\">p2textomp</p>",
+],
+"description": "modelo de p2textomp"
+},
 
-  "Título de nível cinco ": {
-    "prefix": "tituloNivel5",
-    "body": ["<h5 class=\"p0tit5\">$1</h5>"],
-    "description": "mode de título de nível cinco"
-  },
+"P2 texto MP item - lista": {
+"prefix": "snipp2textompitemlista",
+"body": [
+    "<ul class=\"p2textompitem\">",
+                    "<li>texto</li>",
+                    "<li>texto</li>",
+                    "<li>texto</li>",
+                "</ul>"
+],
+"description": "modelo de p2textompitem - lista"
+},
 
-  "Título de nível seis ": {
-    "prefix": "tituloNivel6",
-    "body": ["<h6 class=\"p0tit6\">$1</h6>"],
-    "description": "mode de título de nível seis"
-  },
+"P2 texto MP item - parágrafo": {
+"prefix": "snipp2textompitemparagrafo",
+"body": [
+    "<p class=\"p2textompitem\">texto</p>",
+],
+"description": "modelo de p2textompitem - parágrafo"
+},
 
-  //ATIVIDADES
+"P2 texto MP item continua": {
+"prefix": "snipp2textompitemcont",
+"body": [
+    "<p class=\"p2textompitemcont\">Texto</p>",
+],
+"description": "modelo de p2textompitemcont"
+},  
 
-  "Atividades ": {
-    "prefix": "atividades",
-    "body": [
-      "<p class=\"sectitAtv\">",
-      "<span class=\"atv\">Atividades </span>",
-      "<span class=\"anote\">Anote as respostas no caderno.</span>",
-      "</p>"
-    ],
-    "description": "mode de Atividades"
-  },
+"P2 texto MP subitem - lista": {
+"prefix": "snipp2textompsubitemlista",
+"body": [
+    "<ul class=\"p2textompsubitem\">",
+    "<li>texto</li>",
+    "<li>texto</li>",
+    "<li>texto</li>",
+    "</ul>",
+],
+"description": "modelo de p2textompsubitem - lista"
+},
 
-  //JORNAL
+"P2 texto MP subitem - parágrafo": {
+"prefix": "snipp2textompsubitemparagrafo",
+"body": [
+    "<p class=\"p2textompsubitem\">texto</p>"
+],
+"description": "modelo de p2textompsubitem - parágrafo"
+},
 
-  "Jornal ": {
-    "prefix": "jornal",
-    "body": [
-      "<div class=\"o3jornalfundo\">",
-      "<blockquote class=\"p3citacaomanchete\">$1</blockquote>",
-      "<blockquote class=\"p3citacaoolho\">$2</blockquote>",
-      "</div>"
-    ],
-    "description": "mode de jornal"
-  },
+"P2 texto MP subitem cont": {
+"prefix": "snipp2textompsubitemcont",
+"body": [
+    "<p class=\"p2textompsubitemcont\">Texto</p>"
+],
+"description": "modelo de p2textompsubitemcont"
+},
 
-  //CITAÇÃO
+"P2 texto MP item letra": {
+"prefix": "snipp2textompitemletra",
+"body": [
+    "<p class=\"p2textompitemletra\"><span class=\"c0destaqueletramp\">$1 )</span> Texto</p>"
+],
+"description": "modelo de p2textompitemletra"
+},
 
-  "Citação Manchete ": {
-    "prefix": "citacaoManchete",
-    "body": ["<blockquote class=\"p3citacaomanchete\">$1</blockquote>"],
-    "description": "mode de Citação Manchete"
-  },
+"P2 texto MP item letra continua": {
+"prefix": "snipp2textompitemletracont",
+"body": [
+    "<p class=\"p2textompitemletracont\">Texto</p>"
+],
+"description": "modelo de p2textompitemletracont"
+},  
 
-  "Citação Título 1 ": {
-    "prefix": "citacaoTit1",
-    "body": ["<blockquote class=\"p3citacaotit1\">$1</blockquote>"],
-    "description": "mode de Citação Título 1"
-  },
+"P2 texto MP letra": {
+"prefix": "snipp2textompletra",
+"body": [
+    "<p class=\"p2textompletra\"><span class=\"c0destaqueletramp\">$1 )</span> Texto</p>"
+],
+"description": "modelo de p2textompletra"
+},
 
-  "Citação Título 2": {
-    "prefix": "citacaoTit2",
-    "body": ["<blockquote class=\"p3citacaotit2\">$1</blockquote>"],
-    "description": "mode de Citação Título 2"
-  },
+"P2 texto MP letra continua": {
+"prefix": "snipp2textompletracont",
+"body": [
+    "<p class=\"p2textompletracont\">Texto</p>"
+],
+"description": "modelo de p2textompletracont"
+},
 
-  "Citação Olho ": {
-    "prefix": "citacaoOlho",
-    "body": ["<blockquote class=\"p3citacaoolho\">$1</blockquote>"],
-    "description": "mode de Citação Olho"
-  },
+"P2 texto MP letra item - lista": {
+"prefix": "snipp2textompletraitemlista",
+"body": [
+    "<ul class=\"p2textompletraitem\">",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "</ul>"
+],
+"description": "modelo de p2textompletraitem - lista"
+},
 
-  "Citação Com Recuo ": {
-    "prefix": "citacaoComRecuo",
-    "body": ["<blockquote class=\"p3citacao\">$1</blockquote>"],
-    "description": "mode de Citação Com Recuo"
-  },
+"P2 texto MP letra item - parágrafo": {
+"prefix": "snipp2textompletraitemparagrafo",
+"body": [
+    "<p class=\"p2textompletraitem\">Texto</p>"
+],
+"description": "modelo de p2textompletraitem - parágrafo"
+},
 
-  "Citação Sem Recuo ": {
-    "prefix": "citacaoSemRecuo",
-    "body": ["<blockquote class=\"p3citacaosemrecuo\">$1</blockquote>"],
-    "description": "mode de Citação Sem Recuo"
-  },
+"P2 texto MP letra item continua": {
+"prefix": "snipp2textompletraitemcont",
+"body": [
+    "<p class=\"p2textompletraitemcont\">Texto</p>"
+],
+"description": "modelo de p2textompletraitemcont"
+},
 
-  //TEXTO CITADO
+"P2 texto MP sem recuo": {
+"prefix": "snipp2textompsemrecuo",
+"body": [
+    "<p class=\"p2textompsemrecuo\">Texto</p>"
+],
+"description": "modelo de p2textompsemrecuo"
+},
 
-  "Fio Citação": {
-    "prefix": "fioCitacao",
-    "body": [
-      "<div class=\"o3fiocitacao\">",
-      "<blockquote class=\"p3citacao\">$1</blockquote>",
-      "</div>"
-    ],
-    "description": "mode de Fio Citação"
-  },
+"P2 atv MP": {
+"prefix": "snipp2atvmp",
+"body": [
+    "<p class=\"p2atvmp\"><span class=\"c0destaquenumeromp\">$1.</span> Texto</p>"
+],
+"description": "modelo de p2atvmp"
+},
 
-  //VOCABULÁRIO
+"P2 atv MP continua": {
+"prefix": "snipp2atvmpcont",
+"body": [
+    "<p class=\"p2atvmpcont\">Texto</p>"
+],
+"description": "modelo de p2atvmpcont"
+},
 
-  "Vocabulário Destaque ": {
-    "prefix": "vocabularioDestaque",
-    "body": [
-      "<dfn>",
-      "<span class=\"c4vocabulariodestaque\">$1</span>",
-      "<a href=\"$2\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>",
-      "</dfn>"
-    ],
-    "description": "mode de Vocabulário Destaque"
-  },
+"P2 atv MP romano": {
+"prefix": "snipp2atvmpromano",
+"body": [
+    "<p class=\"p2atvmpromano\"><span class=\"c0destaqueromanomp\">$1 )</span> Texto</p>"
+],
+"description": "modelo de p2atvmpromano"
+},
 
-  "Vocabulário Destaque Link ": {
-    "prefix": "vocabularioDestaqueLink",
-    "body": [
-      "<a href=\"$1\" title=\"Link para o glossário da palavra\" aria-label=\"para acessar o glossário da palavra\"><sup role=\"doc-glossref\">✚</sup></a>"
-    ],
-    "description": "mode de Vocabulário Destaque Link"
-  },
+"P2 atv MP romano continua": {
+"prefix": "snipp2atvmpromanocont",
+"body": [
+    "<p class=\"p2atvmpromanocont\">Texto</p>"
+],
+"description": "modelo de p2atvmpromanocont"
+},
 
-  "Vocabulário Box ": {
-    "prefix": "vocabularioBox",
-    "body": [
-      "<div class=\"o4vocabulariobox\">",
-      "<dl class=\"p4vocabulario\" aria-label=\"Glossário\">",
-      "<dt id=\"$1\"><dfn class=\"c4vocabulariodestaque\">$2:</dfn></dt>",
-      "<dd>$3<a href=\"$4\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a></dd>",
-      "</dl>",
-      "</div>"
-    ],
-    "description": "mode de Vocabulário Box"
-  },
+"P2 atv MP item - lista": {
+"prefix": "snipp2atvmpitemlista",
+"body": [
+    "<ul class=\"p2atvmpitem\">",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "</ul>",
+],
+"description": "modelo de p2atvmpitem - lista"
+},
 
-  "Vocabulário Box Itálico": {
-    "prefix": "vocabularioBoxItalico",
-    "body": [
-      "<div class=\"o4vocabulariobox\">",
-      "<dl class=\"p4vocabulario\" aria-label=\"Glossário\">",
-      "<dt id=\"$1\"><dfn class=\"c4vocabulariodestaqueitalico\">$2:</dfn></dt>",
-      "<dd>$3<a href=\"$4\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a></dd>",
-      "</dl>",
-      "</div>"
-    ],
-    "description": "mode de Vocabulário Box Itálico"
-  },
+"P2 atv MP item - parágrafo": {
+"prefix": "snipp2atvmpitemparagrafo",
+"body": [
+    "<p class=\"p2atvmpitem\">Texto</p>"
+],
+"description": "modelo de p2atvmpitem - parágrafo"
+},
 
-  "Vocabulário Box Link ": {
-    "prefix": "vocabularioBoxLink",
-    "body": [
-      "<a href=\"$1\" role=\"doc-backlink\" aria-label=\"para voltar ao termo\" title=\"Link para voltar ao termo\"><sup>↰</sup></a>"
-    ],
-    "description": "mode de Vocabulário Destaque Link"
-  },
+"P2 atv MP item continua": {
+"prefix": "snipp2atvmpitemcont",
+"body": [
+    "<p class=\"p2atvmpitemcont\">Texto</p>"
+],
+"description": "modelo de p2atvmpitemcont"
+},
 
-  // CUIDADO DICA
+"P2 atv MP subitem - lista": {
+"prefix": "snipp2atvmpsubitemlista",
+"body": [
+    "<ul class=\"p2atvmpsubitem\">",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "<li>Texto</li>",
+    "</ul>",
+],
+"description": "modelo de p2atvmpsubitem - lista"
+},
 
-  "Dica Box ": {
-    "prefix": "dicaBox",
-    "body": [
-      "<div class=\"o4dicabox\">",
-      "<p class=\"p4cuidadodica\">$1</p>",
-      "</div>"
-    ],
-    "description": "mode de Dica Box"
-  },
+"P2 atv MP subitem - parágrafo": {
+"prefix": "snipp2atvmpsubitemparagrafo",
+"body": [
+    " <p class=\"p2atvmpsubitem\">Texto</p>"
+],
+"description": "modelo de p2atvmpsubitem - parágrafo"
+},
 
-  "Dica Box Negativo ": {
-    "prefix": "dicaBoxNegativo",
-    "body": [
-      "<div class=\"o4dicaboxnegativo\">",
-      "<p class=\"p4cuidadodica\">$1</p>",
-      "</div>"
-    ],
-    "description": "mode de Dica Box Negativo"
-  },
 
-  // CONCEITO
+"P2 atv MP subitem continua": {
+"prefix": "snipp2atvmpsubitemcont",
+"body": [
+    "<p class=\"p2atvmpsubitemcont\">Texto</p>"
+],
+"description": "modelo de p2atvmpsubitemcont"
+},
 
-  "Conceito Box ": {
-    "prefix": "conceitoBox",
-    "body": [
-      "<div class=\"o4conceitobox\">",
-      "<p class=\"p3intermediariompsemrecuo\">$1</p>",
-      "</div>"
-    ],
-    "description": "mode de Conceito Box"
-  },
+"P2 atv MP item letra": {
+"prefix": "snipp2atvmpitemletra",
+"body": [
+    "<p class=\"p2atvmpitemletra\"><span class=\"c0destaqueletramp\">$1 )</span> Texto</p>"
+],
+"description": "modelo de p2atvmpitemletra"
+},
 
-  "Conceito Box Completo": {
-    "prefix": "conceitoBoxCompleto",
-    "body": [
-      "<div class=\"o4conceitobox\">",
-      "<p class=\"p1box2tit\">$1</p>",
-      "<p class=\"p2textosemrecuo\"><strong class=\"c1bold\">$2</strong></p>",
-      "<p class=\"p2texto\">$3</p>",
-      "</div>"
-    ],
-    "description": "mode de Conceito Box Completo"
-  },
+"P2 atv MP item letra continua ": {
+"prefix": "snipp2atvmpitemletracont",
+"body": [
+    "<p class=\"p2atvmpitemletracont\">Texto</p>"
+],
+"description": "modelo de p2atvmpitemletracont"
+},
 
-  //BOX info
+"P2 atv MP letra": {
+"prefix": "snipp2atvmpletra",
+"body": [
+    "<p class=\"p2atvmpletra\"><span class=\"c0destaqueletramp\">$1 )</span> Texto</p>"
+],
+"description": "modelo de p2atvmpletra"
+},
 
-  "Box Info ": {
-    "prefix": "boxInfo",
-    "body": [
-      "<div class=\"o4boxinfo\">",
-      "<p class=\"p1box2tit\">$1</p>",
-      "<div class=\"box\">$2</div>",
-      "</div>"
-    ],
-    "description": "mode de Box Info"
-  },
+"P2 atv MP letra continua": {
+"prefix": "snipp2atvmpletracont",
+"body": [
+    "<p class=\"p2atvmpletracont\">Texto</p>"
+],
+"description": "modelo de p2atvmpletracont"
+},
 
-  //BOX Autoavaliação
+"P2 atv MP letra item bullet - lista": {
+"prefix": "snipp2atvmpletraitembulletlista",
+"body": [
+    "<ul class=\"p2atvmpletraitembullet\">",
+    "<li>texto</li>",
+    "<li>texto</li>",
+    "<li>texto</li>",
+    "</ul>"
+],
+"description": "modelo de p2atvmpletraitembulletlista"
+},
 
-  "Box Autoavaliação ": {
-    "prefix": "boxAutoAvaliacao",
-    "body": [
-      "<div class=\"o4avaliacaobox\">",
-      "<p class=\"p1box1tit\">Autoavaliação</p>",
-      "<div class=\"box\">",
-      "<p class=\"p2textosemrecuo\">$1</p>",
-      "</div>",
-      "</div>"
-    ],
-    "description": "mode de Box Autoavaliação"
-  },
-
-  //Fundo cor
-
-  "Box fundo cor Roxo 1": {
-    "prefix": "boxFundoCorRoxo1",
-    "body": ["<div class=\"o1boxfundoroxo1\">", "$1", "</div>"],
-    "description": "mode de de box fundo cor roxo 1"
-  },
-
-  "Paragrafo fundo cor Roxo 1": {
-    "prefix": "paragrafoFundoCorRoxo1",
-    "body": ["<p class=\"o1boxfundoroxo1\">$1</p>"],
-    "description": "mode de de paragrafo fundo cor roxo 1"
-  },
-
-  "Lista fundo cor Roxo 1": {
-    "prefix": "listaFundoCorRoxo1",
-    "body": ["<ul class=\"o1boxfundoroxo1\">", "$1", "</ul>"],
-    "description": "mode de de lista fundo cor roxo 1"
-  },
-
-  "Box fundo cor Roxo 2": {
-    "prefix": "boxFundoCorRoxo2",
-    "body": ["<div class=\"o1boxfundoroxo2\">", "$1", "</div>"],
-    "description": "mode de de box fundo cor roxo 2"
-  },
-
-  "Paragrafo fundo cor Roxo 2": {
-    "prefix": "paragrafoFundoCorRoxo2",
-    "body": ["<p class=\"o1boxfundoroxo2\">$1</p>"],
-    "description": "mode de de paragrafo fundo cor roxo 2"
-  },
-
-  "Lista fundo cor Roxo 2": {
-    "prefix": "listaFundoCorRoxo2",
-    "body": ["<ul class=\"o1boxfundoroxo2\">", "$1", "</ul>"],
-    "description": "mode de de lista fundo cor roxo 2"
-  },
-
-  "Box fundo cor Azul 1": {
-    "prefix": "boxFundoCorAzul1",
-    "body": ["<div class=\"o1boxfundoazul1\">", "$1", "</div>"],
-    "description": "mode de de box fundo cor azul 1"
-  },
-
-  "Paragrafo fundo cor Azul 1": {
-    "prefix": "paragrafoFundoCorAzul1",
-    "body": ["<p class=\"o1boxfundoazul1\">$1</p>"],
-    "description": "mode de de paragrafo fundo cor azul 1"
-  },
-
-  "Lista fundo cor Azul 1": {
-    "prefix": "listaFundoCorAzul1",
-    "body": ["<ul class=\"o1boxfundoazul1\">", "$1", "</ul>"],
-    "description": "mode de de lista fundo cor azul 1"
-  },
-
-  //BOX PALAVRA
-
-  "Box Palavra": {
-    "prefix": "boxPalavra",
-    "body": [
-      "<ul class=\"o0boxpalavra\">",
-      "<li>$1</li>",
-      "<li>$2</li>",
-      "<li>$3</li>",
-      "</ul>"
-    ],
-    "description": "mode de Box Palavra"
-  },
-
-  //FICHAS
-
-  "Lista Ficha ": {
-    "prefix": "listaFicha",
-    "body": [
-      "<ul class=\"o4ficha\">",
-      "<li>$1</li>",
-      "<li>$2</li>",
-      "<li>$3</li>",
-      "</ul>"
-    ],
-    "description": "mode de Lista Ficha"
-  },
-
-  "Lista Ficha 2": {
-    "prefix": "listaFicha2",
-    "body": [
-      "<ul class=\"o4ficha2\">",
-      "<li>$1</li>",
-      "<li>$2</li>",
-      "<li>$3</li>",
-      "</ul>"
-    ],
-    "description": "mode de Lista Ficha 2"
-  },
-
-  "Parágrafo Ficha ": {
-    "prefix": "paragrafoFicha",
-    "body": ["<p class=\"o4ficha\">$1</p>"],
-    "description": "mode de Parágrafo Ficha"
-  },
-
-  "Parágrafo Ficha 2": {
-    "prefix": "paragrafoFicha2",
-    "body": ["<p class=\"o4ficha2\">$1</p>"],
-    "description": "mode de Parágrafo Ficha 2"
-  },
-
-  "Span Ficha ": {
-    "prefix": "spanFicha",
-    "body": ["<span class=\"o4ficha\">$1</span>"],
-    "description": "mode de Span Ficha"
-  },
-
-  "Span Ficha 2 ": {
-    "prefix": "spanFicha2",
-    "body": ["<span class=\"o4ficha2\">$1</span>"],
-    "description": "mode de Span Ficha 2"
-  },
-
-  //EXEMPLO
-
-  "Marcador Caixa Opção": {
-    "prefix": "marcadorCaixaOpcao",
-    "body": ["<p class=\"p5marcadorcaixa\">Opção $1</p>"],
-    "description": "mode de Marcador Caixa Opção"
-  },
-
-  "Marcador Caixa Exemplo": {
-    "prefix": "marcadorCaixaExemplo",
-    "body": ["<p class=\"p5marcadorcaixa\">Exemplo $1</p>"],
-    "description": "mode de Marcador Caixa Exemplo"
-  },
-
-  "Marcador Caixa Trecho": {
-    "prefix": "marcadorCaixaTrecho",
-    "body": ["<p class=\"p5marcadorcaixa\">Trecho $1</p>"],
-    "description": "mode de Marcador Caixa Trecho"
-  },
-
-  //BALÃO
-
-  "Balão Direita ": {
-    "prefix": "balaoDireita",
-    "body": [
-      "<div class=\"o4balao direita\">",
-      "<p class=\"p5balao\">$1</p>",
-      "</div>"
-    ],
-    "description": "mode de Balão Direita"
-  },
-
-  "Balão Esquerda ": {
-    "prefix": "balaoEsquerda",
-    "body": [
-      "<div class=\"o4balao esquerda\">",
-      "<p class=\"p5balao\">$1</p>",
-      "</div>"
-    ],
-    "description": "mode de Balão Esquerda"
-  },
-
-  //SEÇÃO 1
-
-  "Investigue conhecimentos ": {
-    "prefix": "sec1Investigue",
-    "body": [
-      "<div class=\"o0sec1\">",
-      "<h2 class=\"p1sec1tit1\">Investigue seus conhecimentos</h2>",
-      "<div class=\"box\">",
-      "$1",
-      "</div>",
-      "</div>"
-    ],
-    "description": "mode de Investigue seus conhecimentos"
-  },
-
-  "Retome conhecimentos ": {
-    "prefix": "sec1Retome",
-    "body": [
-      "<div class=\"o0sec1\">",
-      "<h2 class=\"p1sec1tit1\">Retome seus conhecimentos</h2>",
-      "<div class=\"box\">",
-      "$1",
-      "</div>",
-      "</div>"
-    ],
-    "description": "mode de Retome seus conhecimentos"
-  },
-
-  "Teste conhecimentos ": {
-    "prefix": "sec1Teste",
-    "body": [
-      "<div class=\"o0sec1\">",
-      "<h2 class=\"p1sec1tit1\">Teste seus conhecimentos</h2>",
-      "<div class=\"box\">",
-      "$1",
-      "</div>",
-      "</div>"
-    ],
-    "description": "mode de Teste seus conhecimentos"
-  }
 }
+
