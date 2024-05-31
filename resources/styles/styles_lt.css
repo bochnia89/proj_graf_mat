@@ -24,6 +24,7 @@ body {
 main {
     max-width: 85ch;
     margin: 0 auto;
+    overflow-x: hidden !important;
 }
 
 section {
@@ -54,6 +55,8 @@ figure img {
     max-width: 100%;
     height: auto;
 }
+
+
 
 figcaption.p4legenda {
     display: table-caption;
@@ -185,6 +188,7 @@ orientatx
 ocultatx
 ocultamn
 hifen_ano
+hachura
 */
 .aluno {}
 .professor {}
@@ -200,6 +204,34 @@ hifen_ano
     padding: 0 1em 1em 1em;
 }
 
+.d0bgbranco{
+    background: var(--branco);
+}
+.d0carimbo::after{
+    background: url(../images/pv_modelo.svg) no-repeat;
+    content: '';
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: 10;
+}
+.d0linha{
+    border-bottom: 1px solid black;
+    width: 50%;
+    display: inline-block;
+    max-width: 100%;
+}
+.d0boxpoema{
+    padding: 1em 3em !important;    
+ }
+ .d0separabloco{
+     margin: 2em 0 0 0 !important;
+ }
+ .d0boxpoema>blockquote{
+     line-height: 2em;
+ }
 .caracterizada {}
 
 .descaracterizada {}
@@ -233,6 +265,9 @@ hifen_ano
 .hifen_ano {
     margin-left: -8px;
 }
+.hachura{
+    background:url(../images/hachura.svg) repeat;
+}
 
 .p4iconeoed::before{
     content: '';
@@ -256,7 +291,18 @@ hifen_ano
     padding: 0.2em 1em;
     margin: 1em 0 1em 54px;
 }
-
+.lista_de_creditos_da_obra {
+    margin: 0.5em 0;
+}
+.lista_de_creditos_da_obra li{
+    font-size: var(--pesoPadrao);
+    margin: 0.5em 0;
+    text-align:left ;
+    background: none;
+}
+.marcacao_pag_credito_img{
+    font-weight: bold;
+}
 /* Visual do número da página */
 header .pag {
     align-self: flex-end;
@@ -269,10 +315,20 @@ header .pag {
     page-break-before: always;
     page-break-after: avoid;
 }
-.alinhamarcador{
+.alinhamarcador2{
     width: calc(100% - 3em) !important; 
     margin-left:3em !important;
 } 
+.alinhamarcador{
+    max-width: 90% !important;
+    margin-left:3em !important;
+} 
+.alinhapalavras{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
 .col2 {
@@ -929,6 +985,17 @@ o2graficogravata2
 .o2graficobox {
     display: table;
     margin: 1em 0;
+}
+.o2graficobox>.p5marcador{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 27px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -30px;
+    padding: 1px 0 3px 0;
+    width: 25px;
 }
 .o2graficobox figure {
     border: 1px solid var(--verde2);
@@ -2297,11 +2364,11 @@ p.p4cuidadodicaitem::before{
     background: var(--preto);
     color: var(--branco);
     font-weight: bold;
-    height: 25px;
+    height: 27px;
     position: absolute;
     text-align: center;
     margin: 0 0 0 -30px;
-    padding: 3px 0 0 0;
+    padding: 1px 0 3px 0;
     width: 25px;
 }
 
@@ -2332,8 +2399,8 @@ figure>.p5marcador {
     font-weight: bold;
     height: 25px;
     text-align: center;
-    margin: 0 0 0 0px;
-    position: static;
+    margin: 0 0 0 -1.5em;
+    position: absolute;
     width: 25px;
 }
 
@@ -2499,6 +2566,9 @@ c3idiomavocabulariodestaqueitalico
 .c4ordinal {
     font-family: var(--ordinal);
 }
+.c4textotachado{
+    text-decoration: line-through;
+}
 
 .c4lacuna{}
 
@@ -2508,7 +2578,8 @@ c3idiomavocabulariodestaqueitalico
     text-decoration: underline;
 }
 
-.c4vocabulariodestaque {
+.c4vocabulariodestaque,
+.c3idiomavocabulariodestaque {
     border-bottom: 2px solid var(--verde1);
     font-weight: bold;
 }
@@ -2528,12 +2599,14 @@ dd sup {
 
 
 
-.c4vocabulariodestaqueitalico  {
+.c4vocabulariodestaqueitalico,
+.c3idiomavocabulariodestaqueitalico  {
     padding: 0 10px 0 0;
 
 }
 
-.c4vocabulariodestaqueitalico  {
+.c4vocabulariodestaqueitalico,
+.c3idiomavocabulariodestaqueitalico  {
     border-bottom: 2px solid var(--verde1);
     font-weight: bold;
     font-style: italic;
@@ -2685,7 +2758,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 .o1boxfundoverde
 .o1boxfundoazul1
 .o1boxfundoazul2
-.o1boxfundoaroxo1 TODO: Sugerir novo objeto
+.o1boxfundoroxo1 TODO: Sugerir novo objeto
 .o1contornoimagem
 .o2mapabox TODO: Sugerir novo objeto
 .o2graficobox TODO: Sugerir novo objeto
@@ -2982,6 +3055,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 }
 
 /* BOX DESTAQUE */
+
 .o1boxfioroxo1 {
     margin: 1em 0;
 }
@@ -3067,6 +3141,9 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
     border: 1px solid #A7ACA8;
     margin: 1em 0;
 }
+.o3jornalfundo>.p5marcador{
+    margin: -1.1em 0 0 -2.5em;
+}
 
 /* BOX CONCEITO */
 .o4conceitobox {
@@ -3104,6 +3181,44 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 }
 
 /* BOX FUNDO COR */
+
+div.o1boxfundoverde1{
+    background: var(--verde3);
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em 0;
+
+}
+p.o1boxfundoverde1{
+    background: var(--verde3);
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: max-content;
+    max-width: 100%;
+
+}
+
+ul.o1boxfundoverde1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0;
+
+}
+
+ul.o1boxfundoverde1>li {
+    background: var(--verde3);
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+    width: max-content;
+    max-width: 100%;
+}
+
 .o1boxfundolaranja2 {
     background: var(--laranja3);
     padding: 1em;
@@ -3115,9 +3230,9 @@ div.o1boxfundoazul1 {
     background: var(--azul3);
     border-radius: 0.5em;
     padding: 0.2em 0.5em;
-    margin: 0.5em;
+    margin: 0.5em 0;
     width: max-content;
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 
@@ -3125,7 +3240,8 @@ p.o1boxfundoazul1 {
     background: var(--azul3);
     border-radius: 0.5em;
     padding: 0.2em 1em;
-    margin: 1em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
     width: max-content;
     max-width: 100%;
 }
@@ -3164,15 +3280,25 @@ p.o1boxfundoroxo1 {
     background: var(--roxo3);
     border-radius: 0.5em;
     padding: 0.2em 1em;
-    margin: 1em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
     width: max-content;
     max-width: 100%;
 }
 
+li.o1boxfundoroxo1 {
+    background: var(--roxo3);
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+    width: max-content;
+    max-width: 100%;
+}
+
+
 ul.o1boxfundoroxo1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.4em;
     justify-content: center;
     width: max-content;
     max-width: 100%;
@@ -3227,13 +3353,26 @@ ul.o1boxfundoroxo2>li {
 }
 
 /* Fundo branco */
-.o1boxfundobranco {
+ul.o1boxfundobranco {
     background: var(--branco);
     border-radius: 1em;
     padding: 1em;
     margin: 1em 0;
 }
-
+p.o1boxfundobranco {
+    background: var(--branco);
+    border-radius: 0.5em;
+    padding: 0.4em 1em;
+    margin: 1em 0;
+    width: max-content;
+    max-width: 100% !important;
+}
+div.o1boxfundobranco{
+    background: var(--branco);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0;
+}
 .o1boxfundovermelho2 {
     background: var(--vermelho2);
     border-radius: 0.5em;
@@ -3730,39 +3869,10 @@ o5email2
     height: max-content;
     width: max-content;
     min-height: 50px;
-    max-width: 100%;
-
-}
-/* VERSÃO DE PARIDADE VISUAL o5papeleta2
-.o5papeleta1 {
-    margin: 2em 0;
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
+    max-width: 95%;
 
 }
 
-.o5papeleta1>.camada1 {
-    border: 1px solid var(--roxo1);
-    background: var(--branco);
-    padding: 1em;
-    position: absolute;
-    width: 350px;
-    min-height: 250px;
-    z-index: 3;
-
-}
-
-.o5papeleta1>.camada2 {
-    background: var(--roxo3);
-    position: absolute;
-    z-index: 2;
-    transform: rotate(-5deg);
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-}
-*/
 
 .o5papeleta2 {
     border: 1px solid var(--vermelho1);
@@ -3772,35 +3882,11 @@ o5email2
     height: max-content;
     width: max-content;
     min-height: 50px;
-    max-width: 100% !important;
+    max-width: 95% ;
     margin: 1em 0;
 }
 
-/* VERSÃO DE PARIDADE VISUAL o5papeleta2
-.o5papeleta2 {
-    margin: 2em 0;
-    width: 350px;
-    min-height: 250px;
-}
-.o5papeleta2>.camada1 {
-    border: 1px solid var(--vermelho1);
-    background: var(--branco);
-    padding: 1em;
-    position: absolute;
-    width: 350px;
-    min-height: 250px;
-    z-index: 3;
-}
 
-.o5papeleta2>.camada2 {
-    background: var(--vermelho3);
-    position: absolute;
-    z-index: 2;
-    transform: rotate(-5deg);
-    width: 350px;
-    min-height: 250px;
-}
-*/
 
 /* Bilhete */
 .o5bilhete1 {
@@ -3880,7 +3966,7 @@ o5email2
     min-height: 50px;
     width: max-content;
     min-width: 150px;
-    max-width: 100%;
+    max-width: 95%;
 }
 
 .o5postit1::before {
@@ -3904,7 +3990,7 @@ o5email2
     min-height: 50px;
     width: max-content;
     min-width: 150px;
-    max-width: 100%;
+    max-width:95%;
 }
 
 .o5postit2::before {
@@ -3927,7 +4013,7 @@ o5email2
     margin: 2.5em 0;
     min-width: 150px;
     width: max-content;
-    max-width: 100%;
+    max-width: 95%;
     height: max-content;
     min-height:50px;
 }
@@ -3942,50 +4028,6 @@ o5email2
     margin: -2.2em 0 0 -0.5em;
     z-index: 10;
 }
-
-
-
-/* Versão com paridade visual
-.o5nota1 {
-    margin: 2.5em 0;
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-}
-
-.o5nota1::before {
-    background: url(../images/pv_bilhete1.svg) no-repeat;
-    background-size: 100%;
-    content: '';
-    width: 22px;
-    height: 34px;
-    position: absolute;
-    margin: 0px 0 0 2em;
-    z-index: 10;
-}
-
-.o5nota1>.camada1 {
-    background: var(--vermelho3);
-    padding: 1em;
-    position: absolute;             
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-    z-index: 3;
-
-}
-
-.o5nota1>.camada2 { 
-    background: var(--vermelho2);
-    position: absolute;
-    z-index: 2;
-    transform: rotate(-5deg);
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-}
-
-*/
 
 .o5nota2{
     background: var(--vermelho3);
@@ -3994,7 +4036,7 @@ o5email2
     margin: 2.5em 0;
     min-width: 150px;
     width: max-content;
-    max-width: 100%;
+    max-width: 95%;
     height: max-content;
     min-height:50px;
 }
@@ -4010,48 +4052,6 @@ o5email2
     z-index: 10;
 }
 
-/* Versão com paridade visual
-
-.o5nota2 {
-    margin: 2.5em 0;
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-}
-
-.o5nota2::before {
-    background: url(../images/pv_bilhete2.svg) no-repeat;
-    background-size: 100%;
-    content: '';
-    width: 22px;
-    height: 34px;
-    position: absolute;
-    margin: 0 0 0 2em;
-    z-index: 10;
-}
-
-.o5nota2>.camada1 {
-    background: var(--laranja3);
-    padding: 1em;
-    position: absolute;
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-    z-index: 3;
-
-}
-
-.o5nota2>.camada2 {
-    background: var(--laranja2);
-    position: absolute;
-    z-index: 2;
-    transform: rotate(-5deg);
-    width: 350px;
-    max-width: 100%;
-    min-height: 250px;
-}
-
-*/
 
 .o5nota3{
     background: var(--cinza);
@@ -4060,7 +4060,7 @@ o5email2
     margin: 2.5em 0;
     min-width: 150px;
     width: max-content;
-    max-width: 100%;
+    max-width: 95%;
     height: max-content;
     min-height:50px;
 }
@@ -4111,6 +4111,9 @@ o5email2
     min-height: 300px;
 }
 
+.o5quadrobranco>.p5marcador{
+    margin: -1.3em 0 0 -2.9em;
+}
 
 /* Lousa */
 .o5lousa {
@@ -4365,6 +4368,18 @@ o5email2
         margin: 0 10px;
     }
 
+    .alinhamarcador{
+        max-width: 81% !important;
+        margin-left:3em !important;
+    } 
+
+    .alinhapalavras{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 6 colunas de tamanho igual */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+    
+
     .d0box_aluno {
         padding: 0.5em 0 1em 0;
     }
@@ -4453,6 +4468,14 @@ o5email2
         z-index: 3;
     }
 
+    .o0sec4>.box {
+        background: url(../images/pv_o0sec1_bg.svg) no-repeat var(--laranja3);
+        background-position-x: -50px;
+        background-position-y: -40px;
+        border-radius: 2em 0 0 0;
+        padding: 130px 2em 2em 2em;
+    }
+    
 
 
     /* Conheça o livro */
