@@ -70,6 +70,9 @@ figcaption.legenda2 {
     caption-side: top;
     hyphens: none;
 }
+mark{
+    word-break: break-all;
+}
 
 p,
 ul li {
