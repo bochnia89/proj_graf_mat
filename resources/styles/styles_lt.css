@@ -4371,6 +4371,7 @@ o5email2
         margin: 0 10px;
     }
 
+        gap: 16px;
     .alinhamarcador{
         max-width: 81% !important;
         margin-left:3em !important;
