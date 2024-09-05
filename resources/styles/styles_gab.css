@@ -237,7 +237,8 @@ p.p2atvgabsubitem{
 .p2atvgabletraitembulletcont,
 .p2atvgabletraromano,
 .p2atvgabletraromano,
-.p2atvgabletraromanocont{
+.p2atvgabletraromanocont,
+.p2atvgabletrasubromano{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -275,6 +276,14 @@ p.p2atvgabletraitembullet::before{
 .p2atvgabletraromanocont{
     margin:  0.5em 0 0.5em 5.5em; 
 }
+
+.p2atvgabletrasubromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
+.p2atvgabletrasubromano>.c0destaqueletra {
+    margin: 0 0 0 -60px;
+   text-align: center;
+ }
 
 /* Atividade Gab Num */
 .p2atvgabnumitem,

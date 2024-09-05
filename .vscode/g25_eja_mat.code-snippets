@@ -327,5 +327,13 @@
 "description": "modelo de p2atvmpletraitembulletlista"
 },
 
+"Oculta TX ": {
+"prefix": "ocultaTX",
+"body": [
+    "<span class=\"ocultatx\">.</span>"
+],
+"description": "mode de "
+},
+
 }
 

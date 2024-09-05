@@ -201,8 +201,8 @@ margin:-10px 0 0 -10px ;
     padding:0 0.6em 0.4em 0.6em;
     width: max-content;
     max-width: 100%;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 2.5em;
 }
 .d0box_geralmp .p1referenciasbibliotit1::before{
 background: url(../images/pv_referenciasbibliocoment.svg) no-repeat;
@@ -307,7 +307,9 @@ margin: 4px 0 0 -20px;
 }
 .p0tit3mpnegativo{}
 
-.p0tit4mp{}
+.p0tit4mp{
+    margin: 1em 0 0.5em 0;
+}
 .p0tit4mpnegativo{}
 
 .p0tit5mp{}
@@ -440,8 +442,8 @@ margin: 2px 0 0 -1em ;
 }
 .p1sumariopeso1 .linkcap{
     background: none ;
-  
-    padding: 0 0 3px 0;
+    background: var(--laranja2);
+    padding: 0 4px 3px 4px;
 }
 .p1sumariopeso1 {
     
@@ -753,7 +755,7 @@ p.p2textompsemrecuosubitem::before{
 /* TODO: ESTILOS NOVOS */
 
 ul.p2textompitem{
-    margin: 0.5em 0 0.5em 0em ;
+    margin: 0.5em 0 0.5em 1em ;
     text-align: justify;
 }
 p.p2textompitem{
@@ -772,7 +774,7 @@ p.p2textompitem::before{
     font-size: 1.2em;
     width: 10px;
     height: 10px;
-    margin: 0 10px 0 0 ;
+    margin: 0 10px 0 -10px ;
 }
 
 
@@ -1082,7 +1084,6 @@ p.p2atvmpletraitembullet{
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 .p2referenciasbibliomp{
     margin: 1em 0 0.1em 0;
-  word-break: break-all;
 }
 .p2referenciasbibliompcoment{
     margin: 0 0 0.5em 0;

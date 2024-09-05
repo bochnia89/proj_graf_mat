@@ -12,6 +12,40 @@
   s{
     color: none;
   }
+  math{
+    border: 1px solid red;
+  }
+  .hifen_ano{
+    background: #8400ff;
+  }
+
+  ul.tem_lista_com_1_item > li{
+    background: #ffa600;
+  }
+
+  /*👉VISUALIZAÇÃO AJUSTE DE PRONUNCIA👈*/
+  .ajustepronuncia {
+    background: #80ecff;
+}
+
+  /*👉VISUALIZAÇÃO DO IDIOMA👈*/
+    .c3idioma, 
+    .c3idiomabold, 
+    .c3idiomaitalico,
+    .c3idiomabolditalico,
+    .c3idiomasimuladorhiperlink,
+    .c3idiomaresposta,
+    .c3idiomaboldresposta,
+    .c3idiomaitalicoresposta,
+    .c3idiomabolditalicoresposta,
+    .c3idiomavocabulariodestaque,
+    .c3idiomavocabulariodestaqueitalico{
+        background: #EDAAA0;
+    }
+
+    .desabilitasemuso{
+        opacity: 0.2;
+      }
   #back-to-top{
     position: fixed;
     z-index: 20;
@@ -48,7 +82,7 @@
 
 /*👉Navegação do cardápio 👈*/
 
-#myLinks {
+#mylinks {
     display: none;
   }
 
@@ -95,7 +129,7 @@ z-index: 25;
 
 
 
-.marklaranja{
+.markLaranja{
     background: #ffa600;
 }
 
